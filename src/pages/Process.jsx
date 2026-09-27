@@ -6,34 +6,34 @@ const steps = [
   {
     key: 'clay',
     n: '01',
-    title: 'Clay',
+    title: 'Porcelain',
     image: '/images/studio/clay.svg',
-    alt: 'Wedging a block of stoneware clay on the bench',
+    alt: 'Wedging a block of porcelain on the bench',
     text: [
-      'Everything starts with a bag of stoneware or porcelain, wedged by hand to push out air and line up the particles. It takes ten minutes per batch and is the closest thing the studio has to a morning ritual.',
-      'The stoneware has a little iron in it, which is what gives the speckle under lighter glazes and the toasted colour on the unglazed foot.',
+      'Claudia works primarily in porcelain. It is a demanding clay to throw, but it rewards the effort with a bright, smooth surface that takes colour cleanly and shows every detail of the decoration.',
+      'Each batch is wedged by hand to push out air and even out the moisture before it goes anywhere near the wheel.',
     ],
   },
   {
     key: 'wheel',
     n: '02',
-    title: 'Wheel',
+    title: 'Wheel and hand',
     image: '/images/studio/wheel.svg',
-    alt: 'Hands centring clay on the potter’s wheel',
+    alt: 'Hands centring porcelain on the potter’s wheel',
     text: [
-      'Pieces are thrown on an electric wheel, usually in runs of eight to twelve of the same form. Centring, opening, pulling the walls up: the same three moves, thousands of times.',
-      'Once leather-hard, each piece is turned upside down and trimmed to cut a foot ring and take out the extra weight. Handles are pulled from a lump of clay and attached the same day.',
+      'Most pieces are thrown on the wheel, trimmed once leather-hard, and finished by hand. Others are handbuilt, and many combine both approaches.',
+      'The aim throughout is a balance of form and function: pieces that are good to look at and made to be used.',
     ],
   },
   {
-    key: 'glaze',
+    key: 'surface',
     n: '03',
-    title: 'Glaze',
+    title: 'Surface',
     image: '/images/studio/glaze.svg',
-    alt: 'Dipping a bisque-fired bowl into a bucket of glaze',
+    alt: 'Brushing underglaze onto a bisque-fired porcelain bowl',
     text: [
-      'After a first, low bisque firing, pots are dipped or poured with glaze. The palette is deliberately small: an ochre tenmoku, a wood-ash glaze, a celadon, a shino, and a satin white.',
-      'Glazes are mixed in the studio from raw materials, and every new batch is tested on tiles before it goes anywhere near finished work.',
+      'Surface is where the work becomes most expressive. Underglazes are painted on, commercial glazes are layered over them, and transfer patterns are applied to build up distinct, highly detailed treatments.',
+      'No two pieces carry the same combination, so each one is a small experiment in colour and pattern.',
     ],
   },
   {
@@ -41,10 +41,10 @@ const steps = [
     n: '04',
     title: 'Fire',
     image: '/images/studio/kiln.svg',
-    alt: 'The gas kiln glowing during a reduction firing',
+    alt: 'Loading finished pieces into the kiln',
     text: [
-      'Most work is fired in reduction in a small gas kiln to around 1280 °C, over about twelve hours. Starving the kiln of oxygen partway through pulls colour out of the iron and copper in the glazes.',
-      'A handful of pieces each year go into a shared wood kiln, fired for two days straight. Those come out with ash and flame marks that no gas kiln can imitate.',
+      'Pieces are bisque fired first, which hardens the clay enough to handle and decorate. A second, hotter glaze firing vitrifies the porcelain and brings the colours to life.',
+      'The wait between loading the kiln and opening it again is the hardest part of the whole process.',
     ],
   },
 ];
@@ -52,7 +52,7 @@ const steps = [
 const studio = [
   { src: '/images/studio/studio-1.svg', alt: 'The throwing bench by the window' },
   { src: '/images/studio/studio-2.svg', alt: 'Drying shelves of freshly trimmed bowls' },
-  { src: '/images/studio/studio-3.svg', alt: 'A wall of glaze test tiles' },
+  { src: '/images/studio/studio-3.svg', alt: 'A wall of glaze and underglaze test tiles' },
 ];
 
 export default function Process() {
@@ -60,7 +60,7 @@ export default function Process() {
     <div className="page">
       <Section
         eyebrow="Process"
-        title="From clay to kiln"
+        title="From porcelain to kiln"
         intro="Four stages, a few weeks, and a lot of waiting. Here is how a piece gets made."
       >
         <ol className="process__steps">
@@ -82,6 +82,10 @@ export default function Process() {
       </Section>
 
       <Section tone="deep" eyebrow="The studio" title="Where it happens">
+        <p className="lede">
+          Claudia has kept a home studio since 2012. Since retiring from teaching in 2024 it has
+          become a full-time practice.
+        </p>
         <ul className="process__studio" role="list">
           {studio.map((s) => (
             <li key={s.src}>

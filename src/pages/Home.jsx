@@ -70,8 +70,8 @@ export default function Home() {
 
       <Section tone="ink" eyebrow="Get in touch" title="Interested in a piece?">
         <p className="lede">
-          Everything shown here is one of a kind. If something catches your eye, send a note and
-          Elena will let you know whether it is still available.
+          Everything shown here is one of a kind. If something catches your eye, send a note and{' '}
+          {site.artist.split(' ')[0]} will let you know whether it is still available.
         </p>
         <Link to="/contact" className="btn btn--accent">
           Contact the studio

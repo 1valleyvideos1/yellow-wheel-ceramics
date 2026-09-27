@@ -3,13 +3,34 @@ import site from '../data/site.json';
 import Section from '../components/Section.jsx';
 import './About.css';
 
+const bio = [
+  'While I have spent decades in arts education, ceramics has always been at the core of my creative journey. My passion for pottery was sparked as a young girl during a visit to my sister at college, leading me to take classes at the Hackley School and the Rockland Center for the Arts. I went on to formally study ceramics at Skidmore College and Teachers College, Columbia University.',
+  'Parallel to my ceramic work, I built a fulfilling 36-year career in Art Education. In 1988, I joined the faculty at Westlake High School in Mt. Pleasant, where I taught traditional fine arts and developed 21st-century art programs. Throughout my tenure, I guided hundreds of students toward pursuing degrees and careers in the arts, many of whom are now successful professionals across film, television, news, and photography.',
+  'Though I have maintained a home studio since 2012, my retirement in 2024 allowed me to transition to ceramics as a full-time practice. Working primarily in porcelain, I craft handmade and wheel-thrown pieces that balance form and function. I incorporate underglazes, commercial glazes, and transfer patterns to create distinct, highly expressive surface treatments.',
+];
+
 const timeline = [
-  { year: '2012', text: 'First evening pottery class. Threw a lopsided cylinder and kept it on the desk for years.' },
-  { year: '2015', text: 'Two-year apprenticeship in a production pottery, throwing several hundred mugs a week.' },
-  { year: '2018', text: 'Set up a shared studio and bought a second-hand electric kiln.' },
-  { year: '2021', text: 'Moved into the current studio, built a small gas kiln for reduction firing.' },
-  { year: '2024', text: 'First wood firing with a group of local potters. The Stacked Forms came out of that kiln.' },
-  { year: 'Now', text: 'Throwing functional ware most days, with sculptural work in the gaps.' },
+  {
+    year: 'Early years',
+    text: 'A visit to her sister at college sparks a passion for pottery. Classes follow at the Hackley School and the Rockland Center for the Arts.',
+  },
+  {
+    year: 'Study',
+    text: 'Formal study of ceramics at Skidmore College and Teachers College, Columbia University.',
+  },
+  {
+    year: '1988',
+    text: 'Joins the faculty at Westlake High School in Mt. Pleasant, teaching traditional fine arts and developing 21st-century art programs.',
+  },
+  { year: '2012', text: 'Sets up a home studio and keeps a ceramic practice running alongside teaching.' },
+  {
+    year: '2024',
+    text: 'Retires after 36 years in art education and turns to ceramics full time.',
+  },
+  {
+    year: 'Now',
+    text: 'Working primarily in porcelain: wheel-thrown and handbuilt pieces with underglazes, commercial glazes and transfer patterns.',
+  },
 ];
 
 export default function About() {
@@ -21,39 +42,26 @@ export default function About() {
             <img src="/images/portrait.svg" alt={`${site.artist}, portrait`} width="800" height="1000" />
           </div>
           <div className="about__copy">
-            <p className="lede">{site.shortBio}</p>
-            <p>
-              The studio takes its name from a yellow-painted kick wheel that came with the first
-              shared space. It has since been replaced by an electric wheel, but the name stuck, and
-              a swatch of the same yellow still marks the door.
-            </p>
-            <p>
-              Elena works mostly in stoneware, with porcelain for smaller cups and plates. Every
-              piece is thrown on the wheel, trimmed by hand, and bisque-fired before glazing. Most of
-              the work is fired in reduction in a small gas kiln; a few pieces each year go into a
-              communal wood kiln.
-            </p>
+            <span className="eyebrow">In her words</span>
+            {bio.map((p, i) => (
+              <p key={i} className={i === 0 ? 'lede' : undefined}>
+                {p}
+              </p>
+            ))}
           </div>
         </div>
       </Section>
 
-      <Section tone="deep" eyebrow="Artist statement" title="Why pots">
+      <Section tone="deep" eyebrow="The work" title="Porcelain, form and surface">
         <div className="about__statement">
           <p className="lede">
-            A good pot is used, not admired from across the room. It gets chipped, stained with
-            tea, put in the dishwasher despite the instructions. I want the things I make to hold up
-            to that and to get better with it.
+            Ceramics has always been at the core of my creative journey.
           </p>
           <p>
-            I am not interested in perfect symmetry. Throwing rings, a slight lean, a drip of glaze
-            that stopped just short of the shelf: these are records of the making, and they are the
-            reason a handmade pot feels different in the hand from a factory one. I try to leave them
-            in without letting them take over.
-          </p>
-          <p>
-            The glazes come from a small, stubborn palette. Ash from the wood stove, iron from the
-            local clay, a celadon that took two years to get right. Each firing shifts them a
-            little, so the work changes slowly over time rather than in seasons.
+            Claudia works primarily in porcelain, making wheel-thrown and handcrafted pieces that
+            balance form and function. Surfaces are built up in layers: underglazes, commercial
+            glazes and transfer patterns combine into distinct, highly expressive treatments, so
+            that no two pieces carry quite the same finish.
           </p>
         </div>
       </Section>
@@ -70,7 +78,7 @@ export default function About() {
       </Section>
 
       <Section tone="ink" eyebrow="Process" title="See how the work is made">
-        <p className="lede">From wedging clay to unloading the kiln.</p>
+        <p className="lede">From porcelain to kiln.</p>
         <Link to="/process" className="btn btn--accent">
           The process
         </Link>

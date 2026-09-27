@@ -2,7 +2,8 @@ export const categories = [
   { key: 'bowls', label: 'Bowls' },
   { key: 'mugs', label: 'Mugs & Cups' },
   { key: 'plates', label: 'Plates & Platters' },
-  { key: 'home', label: 'Home & Kitchen' },
+  { key: 'kitchen', label: 'Kitchen' },
+  { key: 'home', label: 'Home & Garden' },
 ];
 
 export const categoryLabel = (key) =>

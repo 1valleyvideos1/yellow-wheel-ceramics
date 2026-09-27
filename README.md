@@ -58,7 +58,7 @@ Add an object to `src/data/pieces.json`:
 }
 ```
 
-- `category` must be one of the keys in `categories.js`: `bowls`, `mugs`, `plates`, `home`. Add a new
+- `category` must be one of the keys in `categories.js`: `bowls`, `mugs`, `plates`, `kitchen`, `home`. Add a new
   category there (and it shows up in the filters and on the home page).
 - `status` is `available`, `sold`, or `not-for-sale`.
 - `featured: true` puts it on the home page (first six shown).

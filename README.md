@@ -18,7 +18,6 @@ Then open http://localhost:5173.
 
 - `npm run build` writes a production bundle to `dist/`
 - `npm run preview` serves that bundle locally
-- `npm run placeholders` regenerates placeholder artwork (see below)
 
 ## Where things live
 
@@ -28,10 +27,9 @@ Then open http://localhost:5173.
 | `src/data/pieces.json` | Every piece in the gallery |
 | `src/data/categories.js` | Category order and labels, status labels |
 | `src/styles/tokens.css` | Colours, type scale, spacing. Change the palette here. |
-| `src/pages/` | One file per page: Home, Gallery, PieceDetail, About, Process, Contact |
+| `src/pages/` | One file per page: Home, Gallery, PieceDetail, About, Contact |
 | `src/components/` | Header, Footer, PieceCard, FilterBar, StatusBadge, InquireButton, etc. |
 | `public/images/pieces/` | Piece photos (web-sized JPEGs) |
-| `public/images/studio/` | Process and studio images (still placeholders) |
 | `public/images/portrait.jpg` | Artist portrait |
 | `Photos/` | Original full-size photos. Git-ignored: they contain GPS location data |
 
@@ -68,7 +66,6 @@ Add an object to `src/data/pieces.json`:
 - `imagePosition` (optional) is a CSS `object-position` such as `"50% 75%"`, to steer the
   gallery-card crop when the piece is not centred in the photo.
 - `price` is unused for now. It is there so a shop can be added later without changing the data.
-- `placeholderGlaze` is only read by the placeholder script and can be left out for real pieces.
 
 ## Adding photos
 
@@ -81,9 +78,7 @@ Add an object to `src/data/pieces.json`:
 Gallery cards crop to a 4:3 landscape box, which suits most of the current photography. The
 detail page shows the whole photo uncropped.
 
-Studio and process images are still placeholders from `npm run placeholders`, referenced in
-`src/pages/Process.jsx`. The home hero and portrait are set in `src/pages/Home.jsx` and
-`src/pages/About.jsx`.
+The home hero and portrait are set in `src/pages/Home.jsx` and `src/pages/About.jsx`.
 
 ## Adding a shop later
 

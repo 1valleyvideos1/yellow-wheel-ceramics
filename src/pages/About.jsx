@@ -77,10 +77,10 @@ export default function About() {
         </ol>
       </Section>
 
-      <Section tone="ink" eyebrow="Process" title="See how the work is made">
-        <p className="lede">From porcelain to kiln.</p>
-        <Link to="/process" className="btn btn--accent">
-          The process
+      <Section tone="ink" eyebrow="The work" title="See what is in the studio">
+        <p className="lede">Bowls, mugs, plates and more, each one of a kind.</p>
+        <Link to="/gallery" className="btn btn--accent">
+          View the gallery
         </Link>
       </Section>
     </div>

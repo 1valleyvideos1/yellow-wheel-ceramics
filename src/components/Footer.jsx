@@ -17,7 +17,6 @@ export default function Footer() {
           <ul>
             <li><Link to="/gallery">Gallery</Link></li>
             <li><Link to="/about">About</Link></li>
-            <li><Link to="/process">Process</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>

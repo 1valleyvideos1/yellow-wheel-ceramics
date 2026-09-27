@@ -30,9 +30,10 @@ Then open http://localhost:5173.
 | `src/styles/tokens.css` | Colours, type scale, spacing. Change the palette here. |
 | `src/pages/` | One file per page: Home, Gallery, PieceDetail, About, Process, Contact |
 | `src/components/` | Header, Footer, PieceCard, FilterBar, StatusBadge, InquireButton, etc. |
-| `public/images/pieces/` | Piece images |
-| `public/images/studio/` | Process and studio images, plus the home hero |
-| `public/images/portrait.svg` | Artist portrait |
+| `public/images/pieces/` | Piece photos (web-sized JPEGs) |
+| `public/images/studio/` | Process and studio images (still placeholders) |
+| `public/images/portrait.jpg` | Artist portrait |
+| `Photos/` | Original full-size photos. Git-ignored: they contain GPS location data |
 
 ## Adding a piece
 
@@ -43,12 +44,13 @@ Add an object to `src/data/pieces.json`:
   "id": "blue-teapot",
   "slug": "blue-teapot",
   "title": "Blue Teapot",
-  "category": "vases",
+  "category": "plates",
   "year": 2026,
   "clay": "Stoneware",
   "glaze": "Cobalt over ash",
   "dimensions": "18 cm × 14 cm × 16 cm",
   "description": "A sentence or two about the piece.",
+  "alt": "What the photo shows, for screen readers",
   "images": ["/images/pieces/blue-teapot-1.jpg"],
   "status": "available",
   "featured": false,
@@ -56,24 +58,32 @@ Add an object to `src/data/pieces.json`:
 }
 ```
 
-- `category` must be one of the keys in `categories.js`: `bowls`, `mugs`, `vases`, `plates`, `sculptural`.
+- `category` must be one of the keys in `categories.js`: `bowls`, `mugs`, `plates`, `home`. Add a new
+  category there (and it shows up in the filters and on the home page).
 - `status` is `available`, `sold`, or `not-for-sale`.
 - `featured: true` puts it on the home page (first six shown).
 - `images` is a list; the first one is the card image, the rest show as thumbnails on the detail page.
+- `clay`, `glaze` and `dimensions` can be left as `""`; empty ones are hidden on the detail page.
+- `alt` describes the photo for screen readers. Falls back to the title.
+- `imagePosition` (optional) is a CSS `object-position` such as `"50% 75%"`, to steer the
+  gallery-card crop when the piece is not centred in the photo.
 - `price` is unused for now. It is there so a shop can be added later without changing the data.
 - `placeholderGlaze` is only read by the placeholder script and can be left out for real pieces.
 
-## Replacing placeholders with real photos
+## Adding photos
 
-1. Drop the photo into `public/images/pieces/` (JPG or WebP, ideally 4:5 portrait, around 1600×2000 px).
-2. Point the piece's `images` entry at it, e.g. `"/images/pieces/ochre-serving-bowl-1.jpg"`.
-3. Delete the old `.svg` if you like. The placeholder script skips any image path that does not end in `.svg`, so re-running it will not overwrite real photos.
+1. Keep the original in `Photos/`.
+2. Save a web copy into `public/images/pieces/`: JPG, about 1600 px on the long edge, with
+   metadata stripped. Phone photos embed GPS coordinates, which would reveal where they were taken.
+   Any export tool that resizes and drops EXIF works.
+3. Point the piece's `images` entry at it, e.g. `"/images/pieces/blue-teapot-1.jpg"`.
 
-Studio, process, hero and portrait images are referenced directly in `src/pages/Home.jsx`,
-`src/pages/About.jsx` and `src/pages/Process.jsx`. Replace the files or update the paths there.
+Gallery cards crop to a 4:3 landscape box, which suits most of the current photography. The
+detail page shows the whole photo uncropped.
 
-Gallery cards crop images to a 4:5 box, so landscape photos will be cropped at the sides. The
-detail page uses the same box.
+Studio and process images are still placeholders from `npm run placeholders`, referenced in
+`src/pages/Process.jsx`. The home hero and portrait are set in `src/pages/Home.jsx` and
+`src/pages/About.jsx`.
 
 ## Adding a shop later
 

@@ -1,5 +1,5 @@
-// Generates placeholder SVG artwork for every piece in src/data/pieces.json,
-// plus a portrait and studio/process images. Run with `npm run placeholders`.
+// Generates placeholder SVG artwork for any piece in src/data/pieces.json that
+// still points at an .svg, plus the studio/process images. Run with `npm run placeholders`.
 // Real photos can replace these files later; keep the same paths in pieces.json
 // (or point the JSON at new .jpg/.webp files).
 
@@ -182,7 +182,6 @@ for (const piece of pieces) {
   });
 }
 
-writeFileSync(join(root, 'public/images/portrait.svg'), flatSvg('Portrait placeholder', 800, 1000, '#e9e0cf', '#b5623a'));
 const studio = [
   ['clay.svg', 'Wedging clay'],
   ['wheel.svg', 'At the wheel'],
@@ -191,11 +190,9 @@ const studio = [
   ['studio-1.svg', 'Studio bench'],
   ['studio-2.svg', 'Drying shelves'],
   ['studio-3.svg', 'Glaze tests'],
-  ['hero.svg', 'Hero placeholder'],
 ];
 for (const [file, label] of studio) {
-  const wide = file === 'hero.svg';
-  writeFileSync(join(studioDir, file), flatSvg(label, wide ? 1600 : 1200, wide ? 1100 : 900, '#e4dccb', '#8a9a7b'));
+  writeFileSync(join(studioDir, file), flatSvg(label, 1200, 900, '#e4dccb', '#8a9a7b'));
 }
 
-console.log(`Wrote ${count} piece placeholders, 1 portrait, ${studio.length} studio images.`);
+console.log(`Wrote ${count} piece placeholders, ${studio.length} studio images.`);

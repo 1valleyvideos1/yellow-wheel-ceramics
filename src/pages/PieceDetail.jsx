@@ -37,7 +37,7 @@ export default function PieceDetail() {
     ['Clay', piece.clay],
     ['Glaze', piece.glaze],
     ['Dimensions', piece.dimensions],
-  ];
+  ].filter(([, v]) => v);
 
   return (
     <div className="page">
@@ -54,9 +54,13 @@ export default function PieceDetail() {
               <img
                 key={piece.images[imgIndex]}
                 src={piece.images[imgIndex]}
-                alt={`${piece.title}, view ${imgIndex + 1} of ${piece.images.length}`}
-                width="800"
-                height="1000"
+                alt={
+                  piece.images.length > 1
+                    ? `${piece.alt ?? piece.title}, view ${imgIndex + 1} of ${piece.images.length}`
+                    : piece.alt ?? piece.title
+                }
+                width="1600"
+                height="1200"
               />
             </div>
             {piece.images.length > 1 && (
@@ -70,7 +74,7 @@ export default function PieceDetail() {
                     aria-label={`View ${i + 1}`}
                     onClick={() => setImgIndex(i)}
                   >
-                    <img src={src} alt="" width="160" height="200" loading="lazy" />
+                    <img src={src} alt="" width="160" height="120" loading="lazy" />
                   </button>
                 ))}
               </div>

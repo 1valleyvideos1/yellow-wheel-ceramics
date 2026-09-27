@@ -6,10 +6,11 @@ import site from '../data/site.json';
  */
 export default function InquireButton({ piece, className = 'btn btn--accent' }) {
   const subject = `Inquiry: ${piece.title}`;
+  const details = [piece.year, piece.dimensions].filter(Boolean).join(', ');
   const body = [
     `Hello,`,
     ``,
-    `I'm interested in "${piece.title}" (${piece.year}, ${piece.dimensions}).`,
+    `I'm interested in "${piece.title}" (${details}).`,
     `Could you let me know if it is still available and how to purchase?`,
     ``,
     `Thanks,`,

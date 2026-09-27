@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="1600" height="1100" role="img" aria-label="Hero placeholder">
-  <rect width="1600" height="1100" fill="#e4dccb"/>
-  <circle cx="800" cy="462" r="198" fill="#8a9a7b" opacity="0.35"/>
-  <rect x="320" y="682" width="960" height="176" rx="44" fill="#8a9a7b" opacity="0.25"/>
-  <text x="800" y="1068" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#7a716a" opacity="0.85">Hero placeholder</text>
-</svg>

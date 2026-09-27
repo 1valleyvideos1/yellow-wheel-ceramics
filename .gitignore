@@ -5,3 +5,7 @@ dist-ssr
 .DS_Store
 npm-debug.log*
 .vite
+
+# Original, full-size photos. They carry GPS location in their metadata;
+# web-sized, metadata-free copies live in public/images/.
+Photos/

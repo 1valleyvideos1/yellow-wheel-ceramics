@@ -34,7 +34,7 @@ export default function Gallery() {
       <Section
         eyebrow="Gallery"
         title="All work"
-        intro="Every piece is thrown by hand and fired in small batches, so no two are quite the same. Use the filters to browse by type."
+        intro="Every piece is thrown or built by hand and fired in small batches, so no two are quite the same. Use the filters to browse by type."
       >
         <FilterBar active={active} onChange={onChange} counts={counts} />
         <p className="visually-hidden" aria-live="polite">

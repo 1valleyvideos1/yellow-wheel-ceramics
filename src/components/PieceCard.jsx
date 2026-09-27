@@ -10,10 +10,11 @@ export default function PieceCard({ piece, eager = false }) {
         <div className="piece-card__media">
           <img
             src={piece.images[0]}
-            alt={`${piece.title}, ${piece.clay.toLowerCase()} with ${piece.glaze.toLowerCase()}`}
+            alt={piece.alt ?? piece.title}
             loading={eager ? 'eager' : 'lazy'}
-            width="800"
-            height="1000"
+            width="1600"
+            height="1200"
+            style={piece.imagePosition ? { objectPosition: piece.imagePosition } : undefined}
           />
         </div>
         <div className="piece-card__body">

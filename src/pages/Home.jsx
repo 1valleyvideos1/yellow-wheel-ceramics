@@ -16,8 +16,8 @@ export default function Home() {
         eyebrow={site.artist}
         title={site.heroTitle}
         text={site.heroText}
-        image="/images/studio/hero.svg"
-        imageAlt="A shelf of freshly glazed pots in the studio"
+        image="/images/pieces/nesting-bowls-1.jpg"
+        imageAlt="Three nesting bowls with navy, sage and cream glaze streaks"
         primary={{ to: '/gallery', label: 'View the gallery' }}
         secondary={{ to: '/about', label: 'About the artist' }}
       />
@@ -34,7 +34,7 @@ export default function Home() {
       <Section tone="deep">
         <div className="home__intro">
           <div className="home__intro-media">
-            <img src="/images/portrait.svg" alt={`${site.artist} in the studio`} loading="lazy" width="800" height="1000" />
+            <img src="/images/portrait.jpg" alt={`Portrait of ${site.artist}`} loading="lazy" width="1200" height="1600" />
           </div>
           <div className="home__intro-copy">
             <span className="eyebrow">The maker</span>
@@ -56,7 +56,7 @@ export default function Home() {
               <li key={c.key}>
                 <Link to={`/gallery?category=${c.key}`} className="home__cat">
                   <div className="home__cat-media">
-                    {cover && <img src={cover.images[0]} alt="" loading="lazy" width="800" height="1000" />}
+                    {cover && <img src={cover.images[0]} alt="" loading="lazy" width="1600" height="1200" />}
                   </div>
                   <span className="home__cat-label">
                     {c.label} <span className="home__cat-count">{count}</span>

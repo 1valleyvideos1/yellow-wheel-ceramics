@@ -39,7 +39,7 @@ export default function About() {
       <Section eyebrow="About" title={site.artist}>
         <div className="about__grid">
           <div className="about__media">
-            <img src="/images/portrait.svg" alt={`${site.artist}, portrait`} width="800" height="1000" />
+            <img src="/images/portrait.jpg" alt={`Portrait of ${site.artist}`} width="1200" height="1600" />
           </div>
           <div className="about__copy">
             <span className="eyebrow">In her words</span>

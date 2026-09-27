@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Placeholder image for Stacked Form I">
+  <defs>
+    <linearGradient id="g-stacked-form-i-1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8f4a29"/>
+      <stop offset="1" stop-color="#5e2f19"/>
+    </linearGradient>
+    <radialGradient id="s-stacked-form-i-1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2b2622" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2b2622" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="#f3ede2"/>
+  <rect y="720" width="800" height="280" fill="#2b2622" opacity="0.04"/>
+  <ellipse cx="400" cy="728" rx="272" ry="48" fill="url(#s-stacked-form-i-1)"/>
+  <path d="M 224.31694770533704 720 Q 224.31694770533704 572.3880192968967 370.33916540808104 572.3880192968967 Q 516.361383110825 572.3880192968967 516.361383110825 720 Z M 241.17313274687285 579.4171612351397 Q 241.17313274687285 431.8051805320364 382.2494170637964 431.8051805320364 Q 523.3257013807199 431.8051805320364 523.3257013807199 579.4171612351397 Z M 229.57946227538207 438.83432247027935 Q 229.57946227538207 291.222341767176 374.00545503398587 291.222341767176 Q 518.4314477925897 291.222341767176 518.4314477925897 438.83432247027935 Z " fill="url(#g-stacked-form-i-1)"/>
+  <text x="400" y="956" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#7a716a" opacity="0.8">Placeholder · Stacked Form I</text>
+</svg>

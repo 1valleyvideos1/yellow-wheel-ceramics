@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Placeholder image for Iron Dinner Plate">
+  <defs>
+    <linearGradient id="g-iron-dinner-plate-1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8f4a29"/>
+      <stop offset="1" stop-color="#5e2f19"/>
+    </linearGradient>
+    <radialGradient id="s-iron-dinner-plate-1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2b2622" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2b2622" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="#f3ede2"/>
+  <rect y="720" width="800" height="280" fill="#2b2622" opacity="0.04"/>
+  <ellipse cx="400" cy="728" rx="272" ry="48" fill="url(#s-iron-dinner-plate-1)"/>
+  <ellipse cx="400" cy="522.5856792722329" rx="286.2078558686673" ry="157.41432072776703" fill="url(#g-iron-dinner-plate-1)"/>
+        <ellipse cx="400" cy="522.5856792722329" rx="206.06965622544047" ry="113.33831092399227" fill="none" stroke="#5e2f19" stroke-width="3" opacity="0.5"/>
+  <text x="400" y="956" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#7a716a" opacity="0.8">Placeholder · Iron Dinner Plate</text>
+</svg>

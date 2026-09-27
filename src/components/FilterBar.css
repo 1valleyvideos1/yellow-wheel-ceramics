@@ -1,0 +1,41 @@
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-6);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--line);
+  background: var(--bg-elev);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--fg-soft);
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease),
+    border-color var(--dur) var(--ease);
+}
+
+.chip:hover {
+  border-color: var(--ink);
+  color: var(--fg);
+}
+
+.chip.is-active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--cream);
+}
+
+.chip__count {
+  font-size: var(--fs-xs);
+  color: var(--muted);
+}
+
+.chip.is-active .chip__count {
+  color: color-mix(in srgb, var(--cream) 70%, transparent);
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Placeholder image for Tenmoku Mug">
+  <defs>
+    <linearGradient id="g-tenmoku-mug-1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a2f22"/>
+      <stop offset="1" stop-color="#2b1a12"/>
+    </linearGradient>
+    <radialGradient id="s-tenmoku-mug-1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2b2622" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2b2622" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="#e4dccb"/>
+  <rect y="720" width="800" height="280" fill="#2b2622" opacity="0.04"/>
+  <ellipse cx="400" cy="728" rx="272" ry="48" fill="url(#s-tenmoku-mug-1)"/>
+  <path d="M 502.3987706248646 484.16613285257444 C 616.9737379497508 472.0720883834757, 616.9737379497508 635.3416887163088, 502.3987706248646 623.24764424721" fill="none" stroke="url(#g-tenmoku-mug-1)" stroke-width="26" stroke-linecap="round"/>
+        <path d="M 233.60122937513543 417.64888827253134 L 239.60122937513543 706 Q 239.60122937513543 720 253.60122937513543 720 L 486.3987706248646 720 Q 500.3987706248646 720 500.3987706248646 706 L 506.3987706248646 417.64888827253134 Z" fill="url(#g-tenmoku-mug-1)"/>
+        <ellipse cx="370" cy="417.64888827253134" rx="136.39877062486457" ry="21.82380329997833" fill="#2b1a12" opacity="0.5"/>
+  <text x="400" y="956" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#7a716a" opacity="0.8">Placeholder · Tenmoku Mug</text>
+</svg>

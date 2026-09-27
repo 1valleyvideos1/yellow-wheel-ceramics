@@ -1,0 +1,15 @@
+{
+  "name": "Yellow Wheel Ceramics",
+  "artist": "Elena Marsh",
+  "tagline": "Wheel-thrown stoneware and porcelain, made slowly in a small studio.",
+  "heroTitle": "Vessels for everyday ritual",
+  "heroText": "Bowls, mugs, vases and plates thrown on the wheel, glazed by hand, and fired in small batches. Each piece is one of a kind.",
+  "email": "hello@yellowwheelceramics.example",
+  "location": "Asheville, North Carolina",
+  "studioVisits": "Studio visits are by appointment. Send a note and we will find a time.",
+  "socials": [
+    { "label": "Instagram", "href": "https://instagram.com/" },
+    { "label": "Pinterest", "href": "https://pinterest.com/" }
+  ],
+  "shortBio": "Elena has been throwing pots for over a decade. Her work is rooted in functional ware: the bowl you reach for every morning, the mug that fits your hands. Surfaces come from a small palette of ash, iron and feldspar glazes tested and retested in her own kiln."
+}

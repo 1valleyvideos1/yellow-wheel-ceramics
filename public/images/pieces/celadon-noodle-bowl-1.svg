@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Placeholder image for Celadon Noodle Bowl">
+  <defs>
+    <linearGradient id="g-celadon-noodle-bowl-1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a9c3b3"/>
+      <stop offset="1" stop-color="#7f9d8b"/>
+    </linearGradient>
+    <radialGradient id="s-celadon-noodle-bowl-1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2b2622" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2b2622" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="#efe7d8"/>
+  <rect y="720" width="800" height="280" fill="#2b2622" opacity="0.04"/>
+  <ellipse cx="400" cy="728" rx="272" ry="48" fill="url(#s-celadon-noodle-bowl-1)"/>
+  <path d="M 171.61129253721126 520.4693862020633 Q 171.61129253721126 720 400 720 Q 628.3887074627887 720 628.3887074627887 520.4693862020633 Z" fill="url(#g-celadon-noodle-bowl-1)"/>
+        <ellipse cx="400" cy="520.4693862020633" rx="228.38870746278874" ry="27.406644895534647" fill="#7f9d8b" opacity="0.55"/>
+  <text x="400" y="956" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#7a716a" opacity="0.8">Placeholder · Celadon Noodle Bowl</text>
+</svg>

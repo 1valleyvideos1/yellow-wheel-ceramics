@@ -1,0 +1,197 @@
+.skip-link {
+  position: absolute;
+  left: var(--sp-4);
+  top: -3rem;
+  background: var(--ink);
+  color: var(--cream);
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--radius);
+  z-index: 100;
+  transition: top var(--dur) var(--ease);
+}
+
+.skip-link:focus {
+  top: var(--sp-4);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid var(--line);
+}
+
+/* Blur lives on a pseudo-element: backdrop-filter on the header itself would
+   turn the fixed-position mobile menu into a child of the header. */
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: color-mix(in srgb, var(--cream) 88%, transparent);
+  backdrop-filter: saturate(140%) blur(10px);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 72px;
+  gap: var(--sp-6);
+}
+
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-3);
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.wordmark:hover {
+  text-decoration: none;
+}
+
+.wordmark__mark {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--yellow);
+  box-shadow: inset 0 0 0 4px var(--cream), inset 0 0 0 6px var(--ink);
+  flex: none;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: var(--sp-6);
+}
+
+.site-nav a {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--fg-soft);
+  padding: var(--sp-2) 0;
+  position: relative;
+}
+
+.site-nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--yellow);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--dur) var(--ease);
+}
+
+.site-nav a:hover,
+.site-nav a.is-active {
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.site-nav a:hover::after,
+.site-nav a.is-active::after {
+  transform: scaleX(1);
+}
+
+.nav-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+}
+
+.nav-toggle__bars,
+.nav-toggle__bars::before,
+.nav-toggle__bars::after {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--ink);
+  border-radius: 2px;
+  transition: transform var(--dur) var(--ease), opacity var(--dur) var(--ease);
+}
+
+.nav-toggle__bars {
+  position: relative;
+}
+
+.nav-toggle__bars::before,
+.nav-toggle__bars::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.nav-toggle__bars::before {
+  top: -7px;
+}
+
+.nav-toggle__bars::after {
+  top: 7px;
+}
+
+.nav-toggle__bars.is-open {
+  background: transparent;
+}
+
+.nav-toggle__bars.is-open::before {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.nav-toggle__bars.is-open::after {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 720px) {
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .site-nav {
+    position: fixed;
+    inset: 72px 0 0 0;
+    background: var(--cream);
+    padding: var(--sp-6) var(--gutter);
+    transform: translateY(-8px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity var(--dur) var(--ease), transform var(--dur) var(--ease);
+  }
+
+  .site-nav.is-open {
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+  }
+
+  .site-nav ul {
+    flex-direction: column;
+    gap: var(--sp-2);
+  }
+
+  .site-nav a {
+    display: block;
+    font-family: var(--font-display);
+    font-size: var(--fs-xl);
+    padding: var(--sp-3) 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .site-nav a::after {
+    display: none;
+  }
+}

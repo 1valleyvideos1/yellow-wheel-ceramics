@@ -1,0 +1,46 @@
+.section {
+  padding-block: var(--sp-8);
+}
+
+.section--deep {
+  background: var(--cream-deep);
+}
+
+.section--ink {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+.section--ink .eyebrow {
+  color: var(--yellow);
+}
+
+.section--ink .lede {
+  color: color-mix(in srgb, var(--cream) 80%, transparent);
+}
+
+.section__head {
+  margin-bottom: var(--sp-6);
+}
+
+.section__head h2 {
+  margin-bottom: var(--sp-3);
+}
+
+.section__head .lede {
+  margin-bottom: 0;
+}
+
+.section__head--row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--sp-5);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+  .section {
+    padding-block: var(--sp-7);
+  }
+}

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import site from '../data/site.json';
+import site from '../content/site.json';
 import './Header.css';
 
 const links = [

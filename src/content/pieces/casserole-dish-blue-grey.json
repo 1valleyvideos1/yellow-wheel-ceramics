@@ -1,0 +1,16 @@
+{
+  "title": "Casserole Dish, Blue Grey",
+  "category": "kitchen",
+  "year": 2026,
+  "status": "available",
+  "featured": false,
+  "description": "A 10\" casserole dish with handles, in blue-grey with a carved band around the outside. Oven, microwave and dishwasher safe.",
+  "alt": "A blue-grey casserole dish with handles and a carved outer band",
+  "images": [
+    "/images/pieces/casserole-dish-blue-grey-1.jpg"
+  ],
+  "clay": "",
+  "glaze": "",
+  "dimensions": "10 in",
+  "price": null
+}

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import site from '../data/site.json';
-import pieces from '../data/pieces.json';
+import site from '../content/site.json';
+import pieces from '../data/pieces.js';
 import { categories } from '../data/categories.js';
 import Hero from '../components/Hero.jsx';
 import Section from '../components/Section.jsx';
@@ -16,8 +16,8 @@ export default function Home() {
         eyebrow={site.artist}
         title={site.heroTitle}
         text={site.heroText}
-        image="/images/pieces/nesting-bowls-1.jpg"
-        imageAlt="Three nesting bowls with navy, sage and cream glaze streaks"
+        image={site.heroImage}
+        imageAlt={site.heroImageAlt}
         primary={{ to: '/gallery', label: 'View the gallery' }}
         secondary={{ to: '/about', label: 'About the artist' }}
       />
@@ -34,7 +34,7 @@ export default function Home() {
       <Section tone="deep">
         <div className="home__intro">
           <div className="home__intro-media">
-            <img src="/images/portrait.jpg" alt={`Portrait of ${site.artist}`} loading="lazy" width="1200" height="1600" />
+            <img src={site.portrait} alt={`Portrait of ${site.artist}`} loading="lazy" width="1200" height="1600" />
           </div>
           <div className="home__intro-copy">
             <span className="eyebrow">The maker</span>

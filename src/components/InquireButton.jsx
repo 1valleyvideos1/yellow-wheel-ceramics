@@ -1,4 +1,4 @@
-import site from '../data/site.json';
+import site from '../content/site.json';
 
 /**
  * A mailto link with a prefilled subject and body for a specific piece.

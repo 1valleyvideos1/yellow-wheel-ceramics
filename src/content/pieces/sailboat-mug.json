@@ -1,0 +1,16 @@
+{
+  "title": "Sailboat Mug",
+  "category": "mugs",
+  "year": 2026,
+  "status": "available",
+  "featured": false,
+  "description": "A cream mug with sailboats drawn around the outside and a deep blue interior.",
+  "alt": "A cream mug decorated with sailboats and a blue interior",
+  "images": [
+    "/images/pieces/sailboat-mug-1.jpg"
+  ],
+  "clay": "",
+  "glaze": "",
+  "dimensions": "",
+  "price": null
+}

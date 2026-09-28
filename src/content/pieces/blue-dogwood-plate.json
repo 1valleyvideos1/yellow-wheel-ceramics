@@ -1,0 +1,17 @@
+{
+  "title": "Blue Dogwood Plate",
+  "category": "plates",
+  "year": 2026,
+  "status": "available",
+  "featured": false,
+  "description": "A small square plate with notched corners, covered in cobalt dogwood flowers.",
+  "alt": "A small square plate covered in blue dogwood flowers",
+  "images": [
+    "/images/pieces/blue-dogwood-plate-1.jpg",
+    "/images/pieces/blue-dogwood-plate-2.jpg"
+  ],
+  "clay": "",
+  "glaze": "",
+  "dimensions": "",
+  "price": null
+}

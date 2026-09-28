@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import pieces from '../data/pieces.json';
+import pieces from '../data/pieces.js';
 import { categoryLabel } from '../data/categories.js';
 import StatusBadge from '../components/StatusBadge.jsx';
 import InquireButton from '../components/InquireButton.jsx';

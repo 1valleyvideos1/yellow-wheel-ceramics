@@ -1,0 +1,16 @@
+{
+  "title": "Blue Burst Bowl",
+  "category": "bowls",
+  "year": 2026,
+  "status": "available",
+  "featured": false,
+  "description": "A cream bowl with cobalt and teal glaze bursting out from the centre.",
+  "alt": "A cream bowl with blue and teal glaze bursting from the centre",
+  "images": [
+    "/images/pieces/blue-burst-bowl-1.jpg"
+  ],
+  "clay": "",
+  "glaze": "",
+  "dimensions": "",
+  "price": null
+}

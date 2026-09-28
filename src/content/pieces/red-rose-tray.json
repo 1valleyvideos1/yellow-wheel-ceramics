@@ -1,0 +1,16 @@
+{
+  "title": "Red Rose Tray",
+  "category": "plates",
+  "year": 2026,
+  "status": "available",
+  "featured": false,
+  "description": "A white rectangular tray with a diamond of red embossed roses at its centre.",
+  "alt": "A white rectangular tray with a red diamond of embossed roses",
+  "images": [
+    "/images/pieces/red-rose-tray-1.jpg"
+  ],
+  "clay": "",
+  "glaze": "",
+  "dimensions": "",
+  "price": null
+}

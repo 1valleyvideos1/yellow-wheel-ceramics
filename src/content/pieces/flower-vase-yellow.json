@@ -1,0 +1,16 @@
+{
+  "title": "Flower Vase, Buttercup",
+  "category": "home",
+  "year": 2026,
+  "status": "available",
+  "featured": false,
+  "description": "A small buttercup-yellow vase with a pierced top for arranging stems.",
+  "alt": "A small yellow vase with a pierced top holding flowers",
+  "images": [
+    "/images/pieces/flower-vase-yellow-1.jpg"
+  ],
+  "clay": "",
+  "glaze": "",
+  "dimensions": "",
+  "price": null
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Apple Mugs",
+  "category": "mugs",
+  "year": 2026,
+  "status": "available",
+  "featured": false,
+  "description": "Round, apple-shaped mugs, each with a sculpted leaf at the rim and a stem for a handle. The glazes run from spring green to plum and deep blue, so every apple is a different variety. Each mug is sold separately.",
+  "alt": "Four apple-shaped mugs in green, grey, blue and purple glazes, each with a leaf at the rim",
+  "images": [
+    "/images/pieces/apple-mugs-1.jpg",
+    "/images/pieces/apple-mugs-2.jpg",
+    "/images/pieces/apple-mugs-3.jpg",
+    "/images/pieces/apple-mugs-4.jpg"
+  ],
+  "clay": "",
+  "glaze": "",
+  "dimensions": "",
+  "price": null
+}

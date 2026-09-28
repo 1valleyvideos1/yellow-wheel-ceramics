@@ -1,0 +1,135 @@
+# Dashboard for editing the site at /admin (Sveltia CMS).
+# Saving in the dashboard commits to GitHub, and Netlify rebuilds the site.
+
+backend:
+  name: github
+  repo: 1valleyvideos1/yellow-wheel-ceramics
+  branch: main
+
+# Uploaded photos are resized and converted to WebP in the browser before they
+# are saved. scripts/strip-metadata.mjs also removes any location data at build.
+media_folder: /public/images/pieces
+public_folder: /images/pieces
+media_libraries:
+  default:
+    config:
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1600
+          height: 1600
+
+collections:
+  - name: pieces
+    label: Pieces
+    label_singular: Piece
+    description: Every piece in the gallery. Add a new one, or open a piece to change it or mark it sold.
+    folder: /src/content/pieces
+    format: json
+    extension: json
+    create: true
+    delete: true
+    identifier_field: title
+    slug: "{{slug}}"
+    summary: "{{title}} · {{status}}"
+    sortable_fields: [title, year, category, status]
+    fields:
+      - { name: title, label: Title, widget: string }
+      - name: images
+        label: Photos
+        hint: The first photo is the one shown in the gallery. Drag to reorder.
+        widget: list
+        min: 1
+        field: { name: image, label: Photo, widget: image }
+      - name: category
+        label: Category
+        widget: select
+        options:
+          - { label: Bowls, value: bowls }
+          - { label: "Mugs & Cups", value: mugs }
+          - { label: "Plates & Platters", value: plates }
+          - { label: Kitchen, value: kitchen }
+          - { label: "Home & Garden", value: home }
+      - name: status
+        label: Status
+        widget: select
+        default: available
+        options:
+          - { label: Available, value: available }
+          - { label: Sold, value: sold }
+          - { label: Not for sale, value: not-for-sale }
+      - { name: year, label: Year made, widget: number, value_type: int }
+      - name: description
+        label: Description
+        widget: text
+        hint: A sentence or two about the piece.
+      - name: alt
+        label: Photo description
+        widget: string
+        required: false
+        hint: What the first photo shows, read aloud to people who cannot see it. For example "A blue bowl with white flowers inside".
+      - name: featured
+        label: Show on the home page
+        widget: boolean
+        default: false
+        required: false
+        hint: The first six featured pieces appear under "Recent pieces".
+      - { name: dimensions, label: Size, widget: string, required: false, hint: 'For example "10 in" or "8 in wide, 4 in tall".' }
+      - { name: clay, label: Clay, widget: string, required: false }
+      - { name: glaze, label: Glaze, widget: string, required: false }
+      - name: imagePosition
+        label: Photo crop focus (advanced)
+        widget: string
+        required: false
+        hint: 'Leave blank. If the gallery thumbnail cuts off the piece, "50% 75%" shifts the crop down, "50% 25%" up.'
+      - { name: price, label: Price, widget: hidden, default: null }
+
+  - name: pages
+    label: Pages & contact details
+    files:
+      - name: about
+        label: About page
+        file: /src/content/about.json
+        fields:
+          - name: bio
+            label: Bio (in her words)
+            widget: text
+            hint: Leave a blank line between paragraphs.
+          - { name: statementQuote, label: Quote, widget: string, required: false }
+          - { name: statement, label: About the work, widget: text }
+          - name: timeline
+            label: Timeline
+            widget: list
+            summary: "{{year}}: {{text}}"
+            fields:
+              - { name: year, label: Year or period, widget: string }
+              - { name: text, label: What happened, widget: text }
+
+      - name: site
+        label: Home page and contact details
+        file: /src/content/site.json
+        fields:
+          - { name: name, label: Studio name, widget: string }
+          - { name: artist, label: Artist name, widget: string }
+          - { name: tagline, label: Tagline (footer), widget: string }
+          - { name: heroTitle, label: Home page headline, widget: string }
+          - { name: heroText, label: Home page introduction, widget: text }
+          - { name: heroImage, label: Home page photo, widget: image }
+          - { name: heroImageAlt, label: Home page photo description, widget: string }
+          - { name: portrait, label: Portrait photo, widget: image }
+          - name: shortBio
+            label: Short bio (home page)
+            widget: text
+          - { name: email, label: Email for inquiries, widget: string }
+          - { name: location, label: Location, widget: string }
+          - { name: studioVisits, label: Studio visits note, widget: text, required: false }
+          - { name: commissions, label: Commissions note, widget: text, required: false, hint: Leave blank to hide the Commissions section on the Contact page. }
+          - name: socials
+            label: Social links
+            widget: list
+            summary: "{{label}}"
+            fields:
+              - { name: label, label: Name, widget: string }
+              - { name: href, label: Link, widget: string }

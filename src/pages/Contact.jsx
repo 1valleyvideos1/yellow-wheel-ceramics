@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import site from '../data/site.json';
-import pieces from '../data/pieces.json';
+import site from '../content/site.json';
+import pieces from '../data/pieces.js';
 import Section from '../components/Section.jsx';
 import './Contact.css';
 
@@ -84,13 +84,12 @@ export default function Contact() {
                 ))}
               </ul>
             </div>
-            <div className="contact__block">
-              <h3>Commissions</h3>
-              <p className="contact__muted">
-                Small runs of tableware for homes and restaurants are taken on a few times a year.
-                Get in touch with rough quantities and timing.
-              </p>
-            </div>
+            {site.commissions && (
+              <div className="contact__block">
+                <h3>Commissions</h3>
+                <p className="contact__muted">{site.commissions}</p>
+              </div>
+            )}
           </aside>
         </div>
       </Section>

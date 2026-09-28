@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import pieces from '../data/pieces.json';
+import pieces from '../data/pieces.js';
 import { categories } from '../data/categories.js';
 import Section from '../components/Section.jsx';
 import FilterBar from '../components/FilterBar.jsx';

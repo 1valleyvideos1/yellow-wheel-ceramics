@@ -1,0 +1,16 @@
+{
+  "title": "Rust Bubble Plate",
+  "category": "plates",
+  "year": 2026,
+  "status": "available",
+  "featured": false,
+  "description": "A round rust-red plate scattered with clusters of raised, glassy bubbles.",
+  "alt": "A round rust-red plate with clusters of raised glassy bubbles",
+  "images": [
+    "/images/pieces/rust-bubble-plate-1.jpg"
+  ],
+  "clay": "",
+  "glaze": "",
+  "dimensions": "",
+  "price": null
+}

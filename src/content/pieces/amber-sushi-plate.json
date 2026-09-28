@@ -1,16 +1,17 @@
 {
-  "title": "Amber Sushi Plate",
-  "category": "plates",
-  "year": 2026,
-  "status": "available",
-  "featured": false,
-  "description": "A sushi plate with its own dipping cup built into the rim. Glossy black in the centre, breaking to amber at the edge.",
-  "alt": "A black and amber plate with a small dipping cup built into the rim",
+  "title": "Sushi Aurora Borealis",
   "images": [
     "/images/pieces/amber-sushi-plate-1.jpg"
   ],
+  "category": "plates",
+  "status": "available",
+  "year": 2026,
+  "description": "A sushi plate with its own dipping cup built into the rim. Glossy black in the centre, breaking to amber at the edge.",
+  "alt": "A black and amber plate with a small dipping cup built into the rim",
+  "featured": false,
+  "dimensions": "",
   "clay": "",
   "glaze": "",
-  "dimensions": "",
+  "imagePosition": "",
   "price": null
 }

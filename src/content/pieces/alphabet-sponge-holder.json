@@ -1,16 +1,17 @@
 {
   "title": "Alphabet Sponge Holder",
-  "category": "kitchen",
-  "year": 2026,
-  "status": "available",
-  "featured": false,
-  "description": "A pale blue sponge holder scattered with black letters in different typefaces.",
-  "alt": "A pale blue sponge holder decorated with black letters, holding a sponge",
   "images": [
     "/images/pieces/alphabet-sponge-holder-1.jpg"
   ],
-  "clay": "",
-  "glaze": "",
-  "dimensions": "",
+  "category": "kitchen",
+  "status": "available",
+  "year": 2026,
+  "description": "A pale blue sponge holder scattered with black letters in different typefaces.",
+  "alt": "A pale blue sponge holder decorated with black letters, holding a sponge",
+  "featured": false,
+  "dimensions": "4.5x4.5",
+  "clay": "Porcelain",
+  "glaze": "Blue Midnight inside, Celadon Aqua outside",
+  "imagePosition": "",
   "price": null
 }

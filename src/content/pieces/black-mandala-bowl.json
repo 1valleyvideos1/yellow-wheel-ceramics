@@ -1,16 +1,17 @@
 {
-  "title": "Black Mandala Bowl",
-  "category": "bowls",
-  "year": 2026,
-  "status": "available",
-  "featured": false,
-  "description": "A glossy black bowl with a hand-painted mandala of pink and gold petals at its centre and a carved line pattern around the rim.",
-  "alt": "A black bowl with a pink and gold painted mandala in the centre and a carved rim",
+  "title": "Sgraffito Bowl with Color",
   "images": [
     "/images/pieces/black-mandala-bowl-1.jpg"
   ],
+  "category": "bowls",
+  "status": "available",
+  "year": 2026,
+  "description": "Hand carved with Sgraffito technique, multiple glazes and black create the beautiful pattern of petals.\nB-019 \nAvailable",
+  "alt": "A black bowl with a pink and gold painted mandala in the centre and a carved rim",
+  "featured": false,
+  "dimensions": "",
   "clay": "",
   "glaze": "",
-  "dimensions": "",
+  "imagePosition": "",
   "price": null
 }

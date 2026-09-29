@@ -1,16 +1,17 @@
 {
   "title": "Black Floral Bowl",
-  "category": "bowls",
-  "year": 2026,
-  "status": "available",
-  "featured": false,
-  "description": "A pale aqua bowl covered inside with a dense black floral print, finished with a dark rim.",
-  "alt": "A pale aqua bowl with a black floral pattern inside",
   "images": [
     "/images/pieces/black-floral-bowl-1.jpg"
   ],
+  "category": "bowls",
+  "status": "not-for-sale",
+  "year": 2026,
+  "description": "Glazed with celadon aqua inside and blue midnight on the outside.  San Bao transfer inside the bowl.",
+  "alt": "A pale aqua bowl with a black floral pattern inside",
+  "featured": false,
+  "dimensions": "",
   "clay": "",
   "glaze": "",
-  "dimensions": "",
+  "imagePosition": "",
   "price": null
 }

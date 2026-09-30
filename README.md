@@ -39,8 +39,11 @@ Then open http://localhost:5173.
 
 Go to `/admin` on the live site (e.g. `https://your-site.netlify.app/admin/`) and sign in with
 GitHub. From there you can add pieces with photos, mark pieces sold, and edit the bio, home page
-text and contact details. Saving commits to the `main` branch on GitHub; Netlify then rebuilds
-and the change is live in a minute or two.
+text and contact details. Saving commits to the `main` branch on GitHub but does not rebuild the
+site: dashboard commits carry `[skip ci]`, so Netlify skips them. When you are done editing, click
+**Publish Changes** in the dashboard header. That starts one Netlify build with everything saved
+so far, and the changes are live in a minute or two. Pushes made outside the dashboard (from a
+computer with git) still build as usual.
 
 Photos uploaded through the dashboard are resized to 1600 px and converted to WebP in the browser
 before they are saved. On every build, `scripts/strip-metadata.mjs` also removes EXIF and XMP
@@ -59,6 +62,11 @@ Because the dashboard commits to GitHub, run `git pull` before making changes lo
    and paste the OAuth app's client ID and secret.
 4. Anyone who edits needs a GitHub account with write access to the repo (Settings →
    Collaborators on GitHub).
+5. On Netlify, open Site configuration → Build & deploy → Continuous deployment → Build hooks →
+   Add build hook (name it "Dashboard publish", branch `main`) and copy the URL.
+6. In the dashboard, open the account menu (top right) → Settings → Advanced and paste the build
+   hook URL. It is saved in that browser only, so repeat this on each computer or phone used to
+   edit. Keep the URL private: anyone who has it can start a build.
 
 ## Piece files
 

@@ -1,10 +1,13 @@
 # Dashboard for editing the site at /admin (Sveltia CMS).
-# Saving in the dashboard commits to GitHub, and Netlify rebuilds the site.
+# Saving in the dashboard commits to GitHub with [skip ci], so Netlify does not
+# rebuild on every save. "Publish Changes" in the dashboard header calls a
+# Netlify build hook and puts all saved changes live in one build.
 
 backend:
   name: github
   repo: 1valleyvideos1/yellow-wheel-ceramics
   branch: main
+  skip_ci: true
 
 # Uploaded photos are resized and converted to WebP in the browser before they
 # are saved. scripts/strip-metadata.mjs also removes any location data at build.

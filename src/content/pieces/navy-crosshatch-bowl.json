@@ -1,13 +1,17 @@
 {
   "title": "Navy Crosshatch Bowl",
+  "sku": "YW-0050",
   "category": "bowls",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A wide navy bowl carved through to white in a scatter of crossing lines.",
   "alt": "A navy bowl carved with white crosshatched lines",
   "images": [
-    "/images/pieces/navy-crosshatch-bowl-1.jpg"
+    {
+      "image": "/images/pieces/navy-crosshatch-bowl-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

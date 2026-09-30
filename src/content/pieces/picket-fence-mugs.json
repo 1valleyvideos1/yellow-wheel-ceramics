@@ -1,13 +1,17 @@
 {
   "title": "Picket Fence Mugs, Pair",
+  "sku": "YW-0014",
   "category": "mugs",
   "year": 2025,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "Two mugs with a cream picket fence running around the outside and a glossy green glaze dripping over the top.",
   "alt": "Two mugs with a cream picket fence design under green glaze",
   "images": [
-    "/images/pieces/picket-fence-mugs-1.jpg"
+    {
+      "image": "/images/pieces/picket-fence-mugs-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

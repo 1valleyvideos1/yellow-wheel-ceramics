@@ -1,13 +1,17 @@
 {
   "title": "Yarn Bowl, Green and Cream",
+  "sku": "YW-0081",
   "category": "home",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A cream yarn bowl with green glaze running down from the rim, and a curled slot for yarn.",
   "alt": "A cream yarn bowl with green glaze drips and a curled slot",
   "images": [
-    "/images/pieces/yarn-bowl-green-1.jpg"
+    {
+      "image": "/images/pieces/yarn-bowl-green-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

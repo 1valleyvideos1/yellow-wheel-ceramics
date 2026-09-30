@@ -1,13 +1,17 @@
 {
   "title": "Scalloped Spoon Rest, Aqua",
+  "sku": "YW-0066",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A scalloped spoon rest in soft aqua.",
   "alt": "A scalloped aqua spoon rest holding a wooden spoon",
   "images": [
-    "/images/pieces/spoon-rest-aqua-1.jpg"
+    {
+      "image": "/images/pieces/spoon-rest-aqua-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

@@ -1,13 +1,17 @@
 {
   "title": "Ginkgo Tray",
+  "sku": "YW-0045",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A long rectangular tray with notched corners, covered in black ginkgo leaves on cream.",
   "alt": "A rectangular cream tray covered in black ginkgo leaves",
   "images": [
-    "/images/pieces/ginkgo-tray-1.jpg"
+    {
+      "image": "/images/pieces/ginkgo-tray-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

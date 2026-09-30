@@ -1,13 +1,17 @@
 {
   "title": "Plum Bubble Dish",
+  "sku": "YW-0054",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A small plum dish studded with glassy bubbles, from the same family as Dark Side of the Moon.",
   "alt": "A small plum dish covered in glassy bubbles",
   "images": [
-    "/images/pieces/plum-bubble-dish-1.jpg"
+    {
+      "image": "/images/pieces/plum-bubble-dish-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

@@ -1,13 +1,17 @@
 {
   "title": "Rose Speckle Mug",
+  "sku": "YW-0061",
   "category": "mugs",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A wide, low mug in speckled rose pink, deepening to red inside.",
   "alt": "A wide speckled rose-pink mug",
   "images": [
-    "/images/pieces/rose-speckle-mug-1.jpg"
+    {
+      "image": "/images/pieces/rose-speckle-mug-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

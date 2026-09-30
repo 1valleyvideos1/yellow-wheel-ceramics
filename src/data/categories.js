@@ -14,3 +14,7 @@ export const statusLabel = {
   sold: 'Sold',
   'not-for-sale': 'Not for sale',
 };
+
+// "3 available" when there is more than one in stock; otherwise the plain status label.
+export const stockLabel = (status, quantity) =>
+  status === 'available' && quantity > 1 ? `${quantity} available` : undefined;

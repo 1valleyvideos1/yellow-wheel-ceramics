@@ -1,13 +1,17 @@
 {
   "title": "Red Floral Plate",
+  "sku": "YW-0055",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A round plate covered edge to edge in a fine red floral print.",
   "alt": "A round plate with a red floral pattern",
   "images": [
-    "/images/pieces/red-floral-plate-1.jpg"
+    {
+      "image": "/images/pieces/red-floral-plate-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

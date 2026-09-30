@@ -1,13 +1,17 @@
 {
   "title": "Candle Holder, Olive",
+  "sku": "YW-0007",
   "category": "home",
   "year": 2025,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "An olive green candle holder carved all the way round with leaf-shaped openings.",
   "alt": "An olive green candle holder with leaf-shaped openings",
   "images": [
-    "/images/pieces/candle-holder-olive-1.jpg"
+    {
+      "image": "/images/pieces/candle-holder-olive-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

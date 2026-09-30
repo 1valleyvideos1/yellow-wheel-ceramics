@@ -1,13 +1,17 @@
 {
   "title": "Ring Holder, Green",
+  "sku": "YW-0059",
   "category": "home",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A scalloped ring dish in glossy green with a tapered post in the middle.",
   "alt": "A scalloped green ring holder with a centre post",
   "images": [
-    "/images/pieces/ring-holder-green-1.jpg"
+    {
+      "image": "/images/pieces/ring-holder-green-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

@@ -1,21 +1,40 @@
 {
   "title": "Love and Roses Bowls, Pair",
+  "sku": "YW-0011",
+  "images": [
+    {
+      "image": "/images/pieces/love-and-roses-bowls-1.jpg",
+      "caption": ""
+    },
+    {
+      "image": "/images/pieces/love-and-roses-bowls-2.jpg",
+      "caption": ""
+    },
+    {
+      "image": "/images/pieces/love-and-roses-bowls-3.jpg",
+      "caption": ""
+    },
+    {
+      "image": "/images/pieces/love-and-roses-bowls-4.jpg",
+      "caption": ""
+    },
+    {
+      "image": "/images/pieces/love-and-roses-bowls-5.jpg",
+      "caption": ""
+    }
+  ],
   "category": "bowls",
-  "year": 2025,
   "status": "available",
-  "featured": true,
+  "quantity": 1,
+  "soldAsSet": true,
+  "items": [],
+  "year": 2025,
   "description": "Two coral red bowls with a cluster of pink roses at the centre and \"love\" handwritten around the rim.",
   "alt": "Two coral bowls with pink roses inside and the word love written around the rim",
-  "images": [
-    "/images/pieces/love-and-roses-bowls-1.jpg",
-    "/images/pieces/love-and-roses-bowls-2.jpg",
-    "/images/pieces/love-and-roses-bowls-3.jpg",
-    "/images/pieces/love-and-roses-bowls-4.jpg",
-    "/images/pieces/love-and-roses-bowls-5.jpg",
-    "/images/pieces/love-and-roses-bowls-6.jpg"
-  ],
+  "featured": true,
+  "dimensions": "",
   "clay": "",
   "glaze": "",
-  "dimensions": "",
+  "imagePosition": "",
   "price": null
 }

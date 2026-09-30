@@ -1,14 +1,20 @@
 {
   "title": "Blue Dogwood Plate",
+  "sku": "YW-0030",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A small square plate with notched corners, covered in cobalt dogwood flowers.",
   "alt": "A small square plate covered in blue dogwood flowers",
   "images": [
-    "/images/pieces/blue-dogwood-plate-1.jpg",
-    "/images/pieces/blue-dogwood-plate-2.jpg"
+    {
+      "image": "/images/pieces/blue-dogwood-plate-1.jpg"
+    },
+    {
+      "image": "/images/pieces/blue-dogwood-plate-2.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

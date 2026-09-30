@@ -1,13 +1,17 @@
 {
   "title": "Amber Sushi Plate",
+  "sku": "YW-0020",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A sushi plate with its own dipping cup built into the rim. Glossy black in the centre, breaking to amber at the edge.",
   "alt": "A black and amber plate with a small dipping cup built into the rim",
   "images": [
-    "/images/pieces/amber-sushi-plate-1.jpg"
+    {
+      "image": "/images/pieces/amber-sushi-plate-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

@@ -1,13 +1,17 @@
 {
   "title": "Ring Holder, Aqua",
+  "sku": "YW-0058",
   "category": "home",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A scalloped ring dish in soft aqua with a tall tapered post.",
   "alt": "A scalloped aqua ring holder with a tall centre post",
   "images": [
-    "/images/pieces/ring-holder-aqua-1.jpg"
+    {
+      "image": "/images/pieces/ring-holder-aqua-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

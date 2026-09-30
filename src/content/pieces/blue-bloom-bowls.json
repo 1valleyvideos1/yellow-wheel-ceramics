@@ -1,14 +1,20 @@
 {
   "title": "Blue Bloom Bowls, Pair",
+  "sku": "YW-0026",
   "category": "bowls",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "Two deep bowls in rippling blue with a white flower opening at the bottom of each.",
   "alt": "Two blue bowls, each with a white flower at the centre",
   "images": [
-    "/images/pieces/blue-bloom-bowls-1.jpg",
-    "/images/pieces/blue-bloom-bowls-2.jpg"
+    {
+      "image": "/images/pieces/blue-bloom-bowls-1.jpg"
+    },
+    {
+      "image": "/images/pieces/blue-bloom-bowls-2.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

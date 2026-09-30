@@ -1,13 +1,17 @@
 {
   "title": "Flower Vase, White",
+  "sku": "YW-0042",
   "category": "home",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A small white vase with a pierced top that holds each stem in place.",
   "alt": "A small white vase with a pierced top holding dried flowers",
   "images": [
-    "/images/pieces/flower-vase-white-1.jpg"
+    {
+      "image": "/images/pieces/flower-vase-white-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

@@ -1,13 +1,17 @@
 {
   "title": "Red Floral Platter",
+  "sku": "YW-0056",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": true,
   "description": "An oval serving platter in the same fine red floral print as the round plate.",
   "alt": "An oval platter with a red floral pattern",
   "images": [
-    "/images/pieces/red-floral-platter-1.jpg"
+    {
+      "image": "/images/pieces/red-floral-platter-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

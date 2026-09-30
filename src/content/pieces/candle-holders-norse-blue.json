@@ -1,13 +1,17 @@
 {
   "title": "Candle Holders, Norse Blue",
+  "sku": "YW-0008",
   "category": "home",
   "year": 2025,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "Pale blue candle holders carved through with rows of leaves. Set a tea light inside and the leaves glow.",
   "alt": "Two pale blue candle holders carved with leaf-shaped openings",
   "images": [
-    "/images/pieces/candle-holders-norse-blue-1.jpg"
+    {
+      "image": "/images/pieces/candle-holders-norse-blue-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

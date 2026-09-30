@@ -1,13 +1,17 @@
 {
   "title": "Lavender Mist Bowls, Pair",
+  "sku": "YW-0048",
   "category": "bowls",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "Two bowls in misty lavender, blue and blush, with the colours drifting across the outside.",
   "alt": "Two lavender and blue bowls lying on their sides",
   "images": [
-    "/images/pieces/lavender-mist-bowls-1.jpg"
+    {
+      "image": "/images/pieces/lavender-mist-bowls-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

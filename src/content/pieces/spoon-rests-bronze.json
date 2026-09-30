@@ -1,13 +1,17 @@
 {
   "title": "Scalloped Spoon Rests, Bronze",
+  "sku": "YW-0068",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "Three scalloped spoon rests in bronze and violet, in sizes from teaspoon to cooking spoon.",
   "alt": "Three bronze and violet scalloped spoon rests in different sizes",
   "images": [
-    "/images/pieces/spoon-rests-bronze-1.jpg"
+    {
+      "image": "/images/pieces/spoon-rests-bronze-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

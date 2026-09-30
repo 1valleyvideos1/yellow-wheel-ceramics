@@ -1,13 +1,17 @@
 {
   "title": "Vented Berry Bowl, Red",
+  "sku": "YW-0077",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "An oval berry bowl in speckled red with drainage holes in the base and walls, for rinsing fruit and letting it breathe.",
   "alt": "An oval red berry bowl with drainage holes",
   "images": [
-    "/images/pieces/berry-bowl-red-1.jpg"
+    {
+      "image": "/images/pieces/berry-bowl-red-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

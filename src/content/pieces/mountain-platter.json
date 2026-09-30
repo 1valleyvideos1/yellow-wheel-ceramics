@@ -1,13 +1,17 @@
 {
   "title": "Mountain Platter",
+  "sku": "YW-0004",
   "category": "plates",
   "year": 2024,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A long rectangular platter on a clean white ground, with a snowy mountain range, a stand of pines and a small cabin drawn in fine black line along one edge.",
   "alt": "A long white rectangular platter with a black line drawing of mountains, pine trees and a cabin",
   "images": [
-    "/images/pieces/mountain-platter-1.jpg"
+    {
+      "image": "/images/pieces/mountain-platter-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

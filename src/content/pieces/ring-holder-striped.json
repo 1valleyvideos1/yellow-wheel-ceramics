@@ -1,13 +1,17 @@
 {
   "title": "Ring Holder, Striped",
+  "sku": "YW-0060",
   "category": "home",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A scalloped ring dish in cream and yellow, striped with red.",
   "alt": "A scalloped cream ring holder with red stripes",
   "images": [
-    "/images/pieces/ring-holder-striped-1.jpg"
+    {
+      "image": "/images/pieces/ring-holder-striped-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

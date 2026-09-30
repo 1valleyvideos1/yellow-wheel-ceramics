@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { categoryLabel } from '../data/categories.js';
+import { categoryLabel, stockLabel } from '../data/categories.js';
 import StatusBadge from './StatusBadge.jsx';
 import './PieceCard.css';
 
@@ -20,10 +20,15 @@ export default function PieceCard({ piece, eager = false }) {
         <div className="piece-card__body">
           <div className="piece-card__row">
             <h3 className="piece-card__title">{piece.title}</h3>
-            <StatusBadge status={piece.status} />
+            <StatusBadge status={piece.status}>
+              {piece.items.length > 0 && piece.status === 'available'
+                ? `${piece.availableCount} of ${piece.items.length} available`
+                : stockLabel(piece.status, piece.quantity)}
+            </StatusBadge>
           </div>
           <p className="piece-card__meta">
             {categoryLabel(piece.category)} · {piece.year}
+            {piece.soldAsSet && ' · Sold as a set'}
           </p>
         </div>
       </Link>

@@ -1,13 +1,17 @@
 {
   "title": "Yarn Bowl, Cream and Amber",
+  "sku": "YW-0080",
   "category": "home",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A cream yarn bowl with amber edges and a curled slot and holes for yarn.",
   "alt": "A cream and amber yarn bowl with a curled slot and holes",
   "images": [
-    "/images/pieces/yarn-bowl-amber-1.jpg"
+    {
+      "image": "/images/pieces/yarn-bowl-amber-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

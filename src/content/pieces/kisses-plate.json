@@ -1,13 +1,17 @@
 {
   "title": "Kisses Plate",
+  "sku": "YW-0047",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A softly wavy plate covered in lipstick kisses in coral and blush pink, finished with a coral rim.",
   "alt": "A cream plate with a wavy edge covered in coral and pink lipstick kiss prints",
   "images": [
-    "/images/pieces/kisses-plate-1.jpg"
+    {
+      "image": "/images/pieces/kisses-plate-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

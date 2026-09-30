@@ -1,13 +1,17 @@
 {
   "title": "Blue Herb Strippers",
+  "sku": "YW-0031",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "Leaf-shaped herb strippers covered in a cobalt floral print. Pull a stem through the hole to strip the leaves.",
   "alt": "Five leaf-shaped blue and white herb strippers",
   "images": [
-    "/images/pieces/blue-herb-strippers-1.jpg"
+    {
+      "image": "/images/pieces/blue-herb-strippers-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

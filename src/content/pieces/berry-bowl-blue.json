@@ -1,13 +1,17 @@
 {
   "title": "Vented Berry Bowl, Blue",
+  "sku": "YW-0074",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": true,
   "description": "A berry bowl in pale green fading to deep blue at the rim, pierced with oval vents and a drainage pattern in the base.",
   "alt": "A green and blue berry bowl with oval vents",
   "images": [
-    "/images/pieces/berry-bowl-blue-1.jpg"
+    {
+      "image": "/images/pieces/berry-bowl-blue-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

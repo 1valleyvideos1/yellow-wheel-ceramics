@@ -1,13 +1,17 @@
 {
   "title": "Blue Burst Small Bowls, Set of Six",
+  "sku": "YW-0029",
   "category": "bowls",
   "year": 2026,
   "status": "not-for-sale",
+  "quantity": 1,
   "featured": false,
   "description": "Six small bowls, each with blue and white glaze bursting out from the centre towards an amber rim.",
   "alt": "Six small bowls with blue and white glaze bursting from the centre",
   "images": [
-    "/images/pieces/blue-burst-small-bowls-1.jpg"
+    {
+      "image": "/images/pieces/blue-burst-small-bowls-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

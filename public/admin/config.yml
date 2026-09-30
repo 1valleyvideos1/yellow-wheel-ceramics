@@ -33,16 +33,28 @@ collections:
     delete: true
     identifier_field: title
     slug: "{{slug}}"
-    summary: "{{title}} · {{status}}"
-    sortable_fields: [title, year, category, status]
+    summary: "{{sku}} · {{title}}"
+    sortable_fields: [sku, title, year, category, status]
     fields:
       - { name: title, label: Title, widget: string }
+      - name: sku
+        label: SKU
+        widget: string
+        required: false
+        hint: 'Stock number for this listing, such as "YW-0084". Use the next number after the highest one (sort the list by SKU to see it).'
       - name: images
         label: Photos
+        label_singular: Photo
         hint: The first photo is the one shown in the gallery. Drag to reorder.
         widget: list
         min: 1
-        field: { name: image, label: Photo, widget: image }
+        fields:
+          - { name: image, label: Photo, widget: image }
+          - name: caption
+            label: Caption
+            widget: string
+            required: false
+            hint: 'Optional line shown under this photo, for example "Green apple with a teal leaf".'
       - name: category
         label: Category
         widget: select
@@ -57,9 +69,53 @@ collections:
         widget: select
         default: available
         options:
-          - { label: Available, value: available }
-          - { label: Sold, value: sold }
+          - { label: For sale, value: available }
           - { label: Not for sale, value: not-for-sale }
+        hint: Sold is shown automatically when the quantity in stock reaches 0.
+      - name: quantity
+        label: Quantity in stock
+        widget: number
+        value_type: int
+        min: 0
+        default: 1
+        hint: How many you have. Set to 0 when it sells and it shows as Sold. Not used when the piece has items below; each item has its own quantity.
+      - name: soldAsSet
+        label: Sold as a set
+        widget: boolean
+        default: false
+        required: false
+        hint: Tick if everything in the photos is sold together, such as a pair of mugs. A quantity of 1 means one set.
+      - name: items
+        label: Items sold individually
+        label_singular: Item
+        widget: list
+        required: false
+        summary: "{{fields.sku}} · {{fields.name}} · {{fields.quantity}} in stock"
+        hint: 'For a set where each piece is sold on its own, such as separate mugs. Leave empty for a single piece. Any number of items, whatever the number of photos.'
+        fields:
+          - { name: name, label: Name, widget: string, hint: 'Short name, for example "Green apple".' }
+          - name: sku
+            label: SKU
+            widget: string
+            hint: 'The listing SKU plus a letter, for example "YW-0021-A", "YW-0021-B".'
+          - name: quantity
+            label: Quantity in stock
+            widget: number
+            value_type: int
+            min: 0
+            default: 1
+            hint: How many you have. Set to 0 when it sells and it shows as Sold.
+          - name: soldAsSet
+            label: Sold as a set
+            widget: boolean
+            default: false
+            required: false
+            hint: Tick if this item is several pieces sold together. A quantity of 1 means one set.
+          - name: photo
+            label: Photo
+            widget: image
+            required: false
+            hint: Optional. Choose one of the photos above to link this item to it, or add a new one.
       - { name: year, label: Year made, widget: number, value_type: int }
       - name: description
         label: Description

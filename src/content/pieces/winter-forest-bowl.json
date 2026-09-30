@@ -1,13 +1,17 @@
 {
   "title": "Winter Forest Bowl",
+  "sku": "YW-0016",
   "category": "bowls",
   "year": 2025,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A wide cream bowl with a snowy pine forest drawn in black across the inside, edged in pale green.",
   "alt": "A cream bowl with a black drawing of a snowy pine forest inside",
   "images": [
-    "/images/pieces/winter-forest-bowl-1.jpg"
+    {
+      "image": "/images/pieces/winter-forest-bowl-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

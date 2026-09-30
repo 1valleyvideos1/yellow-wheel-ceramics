@@ -1,13 +1,17 @@
 {
   "title": "Teal Bowls, Pair",
+  "sku": "YW-0071",
   "category": "bowls",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "Two stacking bowls in deep teal that fades to green and blue towards the foot.",
   "alt": "Two teal bowls stacked rim to rim",
   "images": [
-    "/images/pieces/teal-bowls-1.jpg"
+    {
+      "image": "/images/pieces/teal-bowls-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

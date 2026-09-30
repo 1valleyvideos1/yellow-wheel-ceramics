@@ -1,13 +1,17 @@
 {
   "title": "Vented Berry Bowl, Coral",
+  "sku": "YW-0075",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A coral berry bowl with a scalloped band of arched cut-outs around the top and a ring of drainage holes in the base.",
   "alt": "A coral berry bowl with arched cut-outs around the top",
   "images": [
-    "/images/pieces/berry-bowl-coral-1.jpg"
+    {
+      "image": "/images/pieces/berry-bowl-coral-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

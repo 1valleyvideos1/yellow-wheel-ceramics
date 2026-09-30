@@ -1,14 +1,20 @@
 {
   "title": "Blue Hydrangea Plate",
+  "sku": "YW-0032",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A small round plate with hydrangea blooms and leaves drawn in cobalt blue.",
   "alt": "A small round plate with blue hydrangea flowers and leaves",
   "images": [
-    "/images/pieces/blue-hydrangea-plate-1.jpg",
-    "/images/pieces/blue-hydrangea-plate-2.jpg"
+    {
+      "image": "/images/pieces/blue-hydrangea-plate-1.jpg"
+    },
+    {
+      "image": "/images/pieces/blue-hydrangea-plate-2.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

@@ -1,13 +1,17 @@
 {
   "title": "Black Floral Bowl",
+  "sku": "YW-0023",
   "category": "bowls",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A pale aqua bowl covered inside with a dense black floral print, finished with a dark rim.",
   "alt": "A pale aqua bowl with a black floral pattern inside",
   "images": [
-    "/images/pieces/black-floral-bowl-1.jpg"
+    {
+      "image": "/images/pieces/black-floral-bowl-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

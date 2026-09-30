@@ -1,17 +1,24 @@
 {
   "title": "Twisted Wood Mugs and Creamer",
+  "sku": "YW-0072",
+  "images": [
+    {
+      "image": "/images/pieces/twisted-wood-mugs-1.jpg",
+      "caption": ""
+    }
+  ],
   "category": "mugs",
-  "year": 2026,
   "status": "available",
-  "featured": true,
+  "quantity": 4,
+  "soldAsSet": false,
+  "items": [],
+  "year": 2026,
   "description": "Sea green and blue mugs with handles twisted like rope and branches that climb the sides, glazed a glossy dark brown. A matching creamer with a pulled spout completes the set.",
   "alt": "A stack of green and blue mugs and a creamer with twisted dark brown handles and branch decoration",
-  "images": [
-    "/images/pieces/twisted-wood-mugs-1.jpg"
-  ],
-  "imagePosition": "50% 75%",
+  "featured": true,
+  "dimensions": "",
   "clay": "",
   "glaze": "",
-  "dimensions": "",
+  "imagePosition": "50% 75%",
   "price": null
 }

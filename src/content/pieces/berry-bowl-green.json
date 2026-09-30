@@ -1,13 +1,17 @@
 {
   "title": "Vented Berry Bowl, Green",
+  "sku": "YW-0076",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A soft green berry bowl with leaf-shaped vents around the sides and a spiral of drainage holes in the base.",
   "alt": "A green berry bowl with leaf-shaped vents and drainage holes",
   "images": [
-    "/images/pieces/berry-bowl-green-1.jpg"
+    {
+      "image": "/images/pieces/berry-bowl-green-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

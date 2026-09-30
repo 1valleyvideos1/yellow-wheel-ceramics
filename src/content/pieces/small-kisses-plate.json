@@ -1,14 +1,20 @@
 {
   "title": "Small Kisses Plate",
+  "sku": "YW-0069",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A small round plate covered in coral lipstick kisses. A little sister to the larger Kisses Plate.",
   "alt": "A small round plate covered in coral lipstick kisses",
   "images": [
-    "/images/pieces/small-kisses-plate-1.jpg",
-    "/images/pieces/small-kisses-plate-2.jpg"
+    {
+      "image": "/images/pieces/small-kisses-plate-1.jpg"
+    },
+    {
+      "image": "/images/pieces/small-kisses-plate-2.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

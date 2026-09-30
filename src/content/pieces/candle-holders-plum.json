@@ -1,13 +1,17 @@
 {
   "title": "Candle Holders, Plum",
+  "sku": "YW-0009",
   "category": "home",
   "year": 2025,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "Two plum candle holders with flared rims, carved through with leaf-shaped openings.",
   "alt": "Two plum candle holders with leaf-shaped openings",
   "images": [
-    "/images/pieces/candle-holders-plum-1.jpg"
+    {
+      "image": "/images/pieces/candle-holders-plum-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

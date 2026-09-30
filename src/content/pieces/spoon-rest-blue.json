@@ -1,13 +1,17 @@
 {
   "title": "Scalloped Spoon Rest, Blue",
+  "sku": "YW-0067",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A scalloped spoon rest in blue with a pale green centre.",
   "alt": "A scalloped blue spoon rest holding a wooden spoon",
   "images": [
-    "/images/pieces/spoon-rest-blue-1.jpg"
+    {
+      "image": "/images/pieces/spoon-rest-blue-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

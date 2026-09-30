@@ -1,13 +1,17 @@
 {
   "title": "Winter Trees Mugs, Pair",
+  "sku": "YW-0017",
   "category": "mugs",
   "year": 2025,
-  "status": "sold",
+  "status": "available",
+  "quantity": 0,
   "featured": false,
   "description": "Two soup-sized mugs in green and blue with silhouettes of bare winter trees.",
   "alt": "Two green mugs with black silhouettes of winter trees",
   "images": [
-    "/images/pieces/winter-trees-mugs-1.jpg"
+    {
+      "image": "/images/pieces/winter-trees-mugs-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

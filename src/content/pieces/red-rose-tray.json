@@ -1,13 +1,17 @@
 {
   "title": "Red Rose Tray",
+  "sku": "YW-0057",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A white rectangular tray with a diamond of red embossed roses at its centre.",
   "alt": "A white rectangular tray with a red diamond of embossed roses",
   "images": [
-    "/images/pieces/red-rose-tray-1.jpg"
+    {
+      "image": "/images/pieces/red-rose-tray-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

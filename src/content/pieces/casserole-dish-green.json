@@ -1,13 +1,17 @@
 {
   "title": "Casserole Dish, Green",
+  "sku": "YW-0036",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A 10\" casserole dish in glossy green, with blue glaze dripping over a carved band. Oven, microwave and dishwasher safe.",
   "alt": "A green casserole dish with blue drips over a carved band",
   "images": [
-    "/images/pieces/casserole-dish-green-1.jpg"
+    {
+      "image": "/images/pieces/casserole-dish-green-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

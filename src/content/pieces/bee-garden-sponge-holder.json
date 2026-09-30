@@ -1,13 +1,17 @@
 {
   "title": "Bee Garden Sponge Holder",
+  "sku": "YW-0022",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A sponge holder on its own drip saucer, with blue bees, flowers and a garden gate.",
   "alt": "A sponge holder with blue bees and a garden gate, on a matching saucer",
   "images": [
-    "/images/pieces/bee-garden-sponge-holder-1.jpg"
+    {
+      "image": "/images/pieces/bee-garden-sponge-holder-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

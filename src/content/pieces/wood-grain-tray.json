@@ -1,13 +1,17 @@
 {
   "title": "Wood Grain Tray",
+  "sku": "YW-0079",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A cloud-shaped tray printed with tree-ring slices in warm browns.",
   "alt": "A cloud-shaped tray printed with brown tree-ring slices",
   "images": [
-    "/images/pieces/wood-grain-tray-1.jpg"
+    {
+      "image": "/images/pieces/wood-grain-tray-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

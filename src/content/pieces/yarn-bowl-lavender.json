@@ -1,13 +1,17 @@
 {
   "title": "Yarn Bowl, Lavender",
+  "sku": "YW-0082",
   "category": "home",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A yarn bowl in speckled lavender over cream, with a curled slot for the yarn.",
   "alt": "A lavender and cream yarn bowl with a curled slot",
   "images": [
-    "/images/pieces/yarn-bowl-lavender-1.jpg"
+    {
+      "image": "/images/pieces/yarn-bowl-lavender-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

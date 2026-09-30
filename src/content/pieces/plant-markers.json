@@ -1,22 +1,44 @@
 {
   "title": "Garden Plant Markers",
+  "sku": "YW-0044",
   "category": "home",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "Plant markers stamped with the name of what is growing: lettuce, rosemary, carrots, garlic, parsley, arugula, tomato, basil, onion and peppers. Sold in sets.",
   "alt": "Fans of cream ceramic plant markers stamped with herb and vegetable names",
   "images": [
-    "/images/pieces/plant-markers-1.jpg",
-    "/images/pieces/plant-markers-2.jpg",
-    "/images/pieces/plant-markers-3.jpg",
-    "/images/pieces/plant-markers-4.jpg",
-    "/images/pieces/plant-markers-5.jpg",
-    "/images/pieces/plant-markers-6.jpg",
-    "/images/pieces/plant-markers-7.jpg",
-    "/images/pieces/plant-markers-8.jpg",
-    "/images/pieces/plant-markers-9.jpg",
-    "/images/pieces/plant-markers-10.jpg"
+    {
+      "image": "/images/pieces/plant-markers-1.jpg"
+    },
+    {
+      "image": "/images/pieces/plant-markers-2.jpg"
+    },
+    {
+      "image": "/images/pieces/plant-markers-3.jpg"
+    },
+    {
+      "image": "/images/pieces/plant-markers-4.jpg"
+    },
+    {
+      "image": "/images/pieces/plant-markers-5.jpg"
+    },
+    {
+      "image": "/images/pieces/plant-markers-6.jpg"
+    },
+    {
+      "image": "/images/pieces/plant-markers-7.jpg"
+    },
+    {
+      "image": "/images/pieces/plant-markers-8.jpg"
+    },
+    {
+      "image": "/images/pieces/plant-markers-9.jpg"
+    },
+    {
+      "image": "/images/pieces/plant-markers-10.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

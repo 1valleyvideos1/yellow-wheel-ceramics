@@ -43,6 +43,12 @@
   }
 }
 
+.detail__caption {
+  margin-top: var(--sp-3);
+  font-size: var(--fs-sm);
+  color: var(--fg-soft);
+}
+
 .detail__thumbs {
   display: flex;
   gap: var(--sp-3);
@@ -174,4 +180,121 @@
   .detail__info {
     position: static;
   }
+}
+
+
+.detail__thumb {
+  position: relative;
+}
+
+.detail__thumb-sold {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 0.15em 0;
+  background: var(--clay);
+  color: var(--paper);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.detail__items {
+  margin-bottom: var(--sp-6);
+}
+
+.detail__items-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--sp-3);
+  font-family: var(--font-body);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: var(--sp-3);
+}
+
+.detail__items-title span {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.detail__items ul {
+  display: grid;
+  gap: var(--sp-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.detail__item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  width: 100%;
+  padding: var(--sp-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-elev);
+  text-align: left;
+  transition: border-color var(--dur) var(--ease);
+}
+
+.detail__item:hover,
+.detail__item.is-active {
+  border-color: var(--yellow);
+}
+
+.detail__item img {
+  width: 56px;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  flex: none;
+}
+
+.detail__item-text {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+}
+
+.detail__item-name {
+  font-size: var(--fs-sm);
+}
+
+.detail__item-sku {
+  font-size: var(--fs-xs);
+  color: var(--muted);
+}
+
+.detail__item-nophoto {
+  width: 56px;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-sm);
+  background: var(--cream-deep);
+  flex: none;
+}
+
+.detail__badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.detail__set {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.35em 0.9em;
+  border-radius: var(--radius-pill);
+  background: var(--cream-deep);
+  color: var(--fg-soft);
 }

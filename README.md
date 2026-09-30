@@ -67,13 +67,17 @@ Each piece is a file in `src/content/pieces/`, for example `blue-teapot.json`:
 ```json
 {
   "title": "Blue Teapot",
+  "sku": "YW-0084",
   "category": "plates",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
+  "soldAsSet": false,
   "featured": false,
   "description": "A sentence or two about the piece.",
   "alt": "What the photo shows, for screen readers",
-  "images": ["/images/pieces/blue-teapot-1.jpg"],
+  "images": [{ "image": "/images/pieces/blue-teapot-1.jpg", "caption": "" }],
+  "items": [],
   "dimensions": "7 in tall",
   "clay": "",
   "glaze": "",
@@ -83,9 +87,22 @@ Each piece is a file in `src/content/pieces/`, for example `blue-teapot.json`:
 
 - `category` must be one of the keys in `categories.js`: `bowls`, `mugs`, `plates`, `kitchen`, `home`.
   A new category also needs adding to the `category` options in `public/admin/config.yml`.
-- `status` is `available`, `sold`, or `not-for-sale`.
+- `sku` is the listing's stock number, `YW-` plus four digits, numbered in order (existing pieces were
+  numbered oldest year first, then by title). New pieces take the next number.
+- `status` is `available` or `not-for-sale`. Sold is not set by hand: a piece shows as sold when
+  `quantity` is 0, or, for a piece with `items`, when every item's quantity is 0.
+- `quantity` (default 1) is how many are in stock; more than 1 shows as "3 available". Ignored when
+  the piece has `items`.
+- `soldAsSet: true` labels the piece "Sold as a set" (a quantity of 1 then means one set). Items can
+  have `soldAsSet` too.
+- `items` (optional) lists things sold individually from one listing, such as each mug in a set:
+  `{ "name": "Green apple", "sku": "YW-0021-B", "quantity": 1, "photo": "/images/pieces/..." }`.
+  Item SKUs are the listing SKU plus a letter. `quantity` 0 shows as sold. `photo` is optional and
+  can be one of the piece's photos or a separate one. There can be more or fewer items than photos.
 - `featured: true` puts it on the home page (first six shown).
 - `images` is a list; the first one is the card image, the rest show as thumbnails on the detail page.
+  Each entry has an `image` path and an optional `caption`, shown under that photo on the detail
+  page (useful when one listing holds several separate pieces, like a set of mugs).
   A piece with no images is left out of the site.
 - `clay`, `glaze` and `dimensions` can be left empty; empty ones are hidden on the detail page.
 - `alt` describes the photo for screen readers. Falls back to the title.

@@ -1,13 +1,17 @@
 {
   "title": "Blue Burst Bowl",
+  "sku": "YW-0027",
   "category": "bowls",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A cream bowl with cobalt and teal glaze bursting out from the centre.",
   "alt": "A cream bowl with blue and teal glaze bursting from the centre",
   "images": [
-    "/images/pieces/blue-burst-bowl-1.jpg"
+    {
+      "image": "/images/pieces/blue-burst-bowl-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

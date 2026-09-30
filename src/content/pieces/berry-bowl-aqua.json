@@ -1,13 +1,17 @@
 {
   "title": "Vented Berry Bowl, Aqua Leaf",
+  "sku": "YW-0073",
   "category": "kitchen",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A pale aqua berry bowl with leaf-shaped vents around the sides and a flower of holes in the base.",
   "alt": "A pale aqua berry bowl with leaf-shaped vents",
   "images": [
-    "/images/pieces/berry-bowl-aqua-1.jpg"
+    {
+      "image": "/images/pieces/berry-bowl-aqua-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

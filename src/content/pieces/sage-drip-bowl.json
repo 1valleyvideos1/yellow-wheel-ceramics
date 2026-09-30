@@ -1,13 +1,17 @@
 {
   "title": "Sage Drip Bowl",
+  "sku": "YW-0063",
   "category": "bowls",
   "year": 2026,
   "status": "available",
+  "quantity": 1,
   "featured": false,
   "description": "A cream and sage bowl where the glaze streaks down the walls into a smoky violet centre.",
   "alt": "A cream and sage bowl with glaze streaks running to a violet centre",
   "images": [
-    "/images/pieces/sage-drip-bowl-1.jpg"
+    {
+      "image": "/images/pieces/sage-drip-bowl-1.jpg"
+    }
   ],
   "clay": "",
   "glaze": "",

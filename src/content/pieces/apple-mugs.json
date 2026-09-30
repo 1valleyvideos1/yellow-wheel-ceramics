@@ -10,50 +10,20 @@
   "alt": "Four apple-shaped mugs in green, grey, blue and purple glazes, each with a leaf at the rim",
   "images": [
     {
-      "image": "/images/pieces/apple-mugs-1.jpg",
-      "caption": "All four apples together"
+      "image": "/images/pieces/apple-mugs-1.jpg"
     },
     {
-      "image": "/images/pieces/apple-mugs-2.jpg",
-      "caption": "Lavender apple with speckled drips and a black handle"
+      "image": "/images/pieces/apple-mugs-2.jpg"
     },
     {
-      "image": "/images/pieces/apple-mugs-3.jpg",
-      "caption": "Green apple with a teal leaf and a dark brown handle"
+      "image": "/images/pieces/apple-mugs-3.jpg"
     },
     {
-      "image": "/images/pieces/apple-mugs-4.jpg",
-      "caption": "Sage apple with a golden rim and a black handle"
+      "image": "/images/pieces/apple-mugs-4.jpg"
     }
   ],
   "clay": "",
   "glaze": "",
   "dimensions": "",
-  "price": null,
-  "items": [
-    {
-      "name": "Lavender apple",
-      "sku": "YW-0021-A",
-      "quantity": 1,
-      "photo": "/images/pieces/apple-mugs-2.jpg"
-    },
-    {
-      "name": "Green apple",
-      "sku": "YW-0021-B",
-      "quantity": 0,
-      "photo": "/images/pieces/apple-mugs-3.jpg"
-    },
-    {
-      "name": "Sage apple",
-      "sku": "YW-0021-C",
-      "quantity": 1,
-      "photo": "/images/pieces/apple-mugs-4.jpg"
-    },
-    {
-      "name": "Blue apple",
-      "sku": "YW-0021-D",
-      "quantity": 2,
-      "photo": ""
-    }
-  ]
+  "price": null
 }

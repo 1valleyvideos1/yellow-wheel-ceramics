@@ -1,30 +1,65 @@
 {
-  "title": "An Apple A Day...",
+  "title": "Apple Mugs",
   "sku": "YW-0021",
-  "category": "mugs",
-  "year": 2026,
-  "status": "available",
-  "quantity": 1,
-  "featured": false,
-  "description": "Round, apple-shaped mugs, each with a sculpted leaf at the rim and a stem for a handle. The glazes run from spring green to plum and deep blue, so every apple is a different variety. Each mug is sold separately.\nPhoto 3 -Green Apple -(M024), Available\nPhoto 4 - Brown Apple- (M023), Available",
-  "alt": "Four apple-shaped mugs in green, grey, blue and purple glazes, each with a leaf at the rim",
   "images": [
     {
-      "image": "/images/pieces/apple-mugs-1.jpg"
+      "image": "/images/pieces/apple-mugs-1.jpg",
+      "caption": "All four apples together"
     },
     {
-      "image": "/images/pieces/apple-mugs-2.jpg"
+      "image": "/images/pieces/apple-mugs-2.jpg",
+      "caption": "Lavender apple with speckled drips and a black handle"
     },
     {
-      "image": "/images/pieces/apple-mugs-3.jpg"
+      "image": "/images/pieces/apple-mugs-3.jpg",
+      "caption": "Green apple with a teal leaf and a dark brown handle"
     },
     {
-      "image": "/images/pieces/apple-mugs-4.jpg"
+      "image": "/images/pieces/apple-mugs-4.jpg",
+      "caption": "Sage apple with a golden rim and a black handle"
     }
   ],
+  "category": "mugs",
+  "status": "available",
+  "quantity": 1,
+  "soldAsSet": false,
+  "items": [
+    {
+      "name": "Lavender apple",
+      "sku": "YW-0021-A",
+      "quantity": 1,
+      "soldAsSet": false,
+      "photo": "/images/pieces/apple-mugs-2.jpg"
+    },
+    {
+      "name": "Green apple",
+      "sku": "YW-0021-B",
+      "quantity": 1,
+      "soldAsSet": false,
+      "photo": "/images/pieces/apple-mugs-3.jpg"
+    },
+    {
+      "name": "Sage apple",
+      "sku": "YW-0021-C",
+      "quantity": 1,
+      "soldAsSet": false,
+      "photo": "/images/pieces/apple-mugs-4.jpg"
+    },
+    {
+      "name": "Blue apple",
+      "sku": "YW-0021-D",
+      "quantity": 1,
+      "soldAsSet": false,
+      "photo": ""
+    }
+  ],
+  "year": 2026,
+  "description": "Round, apple-shaped mugs, each with a sculpted leaf at the rim and a stem for a handle. The glazes run from spring green to plum and deep blue, so every apple is a different variety. Each mug is sold separately.",
+  "alt": "Four apple-shaped mugs in green, grey, blue and purple glazes, each with a leaf at the rim",
+  "featured": false,
+  "dimensions": "",
   "clay": "",
   "glaze": "",
-  "dimensions": "",
-  "price": null,
-  "imagePosition": ""
+  "imagePosition": "",
+  "price": null
 }

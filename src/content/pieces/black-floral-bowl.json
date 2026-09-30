@@ -3,10 +3,10 @@
   "sku": "YW-0023",
   "category": "bowls",
   "year": 2026,
-  "status": "available",
+  "status": "not-for-sale",
   "quantity": 1,
   "featured": false,
-  "description": "A pale aqua bowl covered inside with a dense black floral print, finished with a dark rim.",
+  "description": "Glazed with celadon aqua inside and blue midnight on the outside.  San Bao transfer inside the bowl.",
   "alt": "A pale aqua bowl with a black floral pattern inside",
   "images": [
     {
@@ -16,5 +16,6 @@
   "clay": "",
   "glaze": "",
   "dimensions": "",
-  "price": null
+  "price": null,
+  "imagePosition": ""
 }

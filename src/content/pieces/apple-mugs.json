@@ -1,12 +1,12 @@
 {
-  "title": "Apple Mugs",
+  "title": "An Apple A Day...",
   "sku": "YW-0021",
   "category": "mugs",
   "year": 2026,
   "status": "available",
   "quantity": 1,
   "featured": false,
-  "description": "Round, apple-shaped mugs, each with a sculpted leaf at the rim and a stem for a handle. The glazes run from spring green to plum and deep blue, so every apple is a different variety. Each mug is sold separately.",
+  "description": "Round, apple-shaped mugs, each with a sculpted leaf at the rim and a stem for a handle. The glazes run from spring green to plum and deep blue, so every apple is a different variety. Each mug is sold separately.\nPhoto 3 -Green Apple -(M024), Available\nPhoto 4 - Brown Apple- (M023), Available",
   "alt": "Four apple-shaped mugs in green, grey, blue and purple glazes, each with a leaf at the rim",
   "images": [
     {
@@ -25,5 +25,6 @@
   "clay": "",
   "glaze": "",
   "dimensions": "",
-  "price": null
+  "price": null,
+  "imagePosition": ""
 }

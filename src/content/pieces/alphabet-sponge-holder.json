@@ -6,15 +6,16 @@
   "status": "available",
   "quantity": 1,
   "featured": false,
-  "description": "A pale blue sponge holder scattered with black letters in different typefaces.",
+  "description": "Blue Midnight Glaze inside, celadon Aqua on the outside.  San Bao Letter transfers to decorate.  Can be custom made to suit your needs.",
   "alt": "A pale blue sponge holder decorated with black letters, holding a sponge",
   "images": [
     {
       "image": "/images/pieces/alphabet-sponge-holder-1.jpg"
     }
   ],
-  "clay": "",
-  "glaze": "",
-  "dimensions": "",
-  "price": null
+  "clay": "Porcelain",
+  "glaze": "Blue Midnight inside, Celadon Aqua outside",
+  "dimensions": "4.5x4.5",
+  "price": null,
+  "imagePosition": ""
 }

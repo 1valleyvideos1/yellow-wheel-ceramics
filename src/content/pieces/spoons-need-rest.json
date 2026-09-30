@@ -4,7 +4,7 @@
   "category": "kitchen",
   "year": 2026,
   "status": "available",
-  "quantity": 1,
+  "quantity": 0,
   "featured": false,
   "description": "A spoon rest with a little seaside scene of beach huts and a shoal of blue fish, and a reminder that even spoons need rest.",
   "alt": "A spoon rest reading Even Spoons Need Rest with beach huts and blue fish",
@@ -16,5 +16,6 @@
   "clay": "",
   "glaze": "",
   "dimensions": "",
-  "price": null
+  "price": null,
+  "imagePosition": ""
 }

@@ -4,7 +4,7 @@
   "category": "bowls",
   "year": 2025,
   "status": "available",
-  "quantity": 1,
+  "quantity": 0,
   "featured": false,
   "description": "A wide cream bowl with a snowy pine forest drawn in black across the inside, edged in pale green.",
   "alt": "A cream bowl with a black drawing of a snowy pine forest inside",
@@ -16,5 +16,6 @@
   "clay": "",
   "glaze": "",
   "dimensions": "",
-  "price": null
+  "price": null,
+  "imagePosition": ""
 }

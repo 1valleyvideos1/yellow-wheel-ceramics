@@ -1,5 +1,5 @@
 {
-  "title": "Amber Sushi Plate",
+  "title": "Sushi Aurora Borealis",
   "sku": "YW-0020",
   "category": "plates",
   "year": 2026,
@@ -16,5 +16,6 @@
   "clay": "",
   "glaze": "",
   "dimensions": "",
-  "price": null
+  "price": null,
+  "imagePosition": ""
 }

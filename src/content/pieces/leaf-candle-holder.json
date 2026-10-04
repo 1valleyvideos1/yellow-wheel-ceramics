@@ -1,20 +1,24 @@
 {
   "title": "Leaf Candle Holder",
   "sku": "YW-0001",
-  "category": "home",
-  "year": 2022,
-  "status": "available",
-  "quantity": 1,
-  "featured": false,
-  "description": "A round holder carved through with rows of leaf-shaped openings. With a tea light inside, the leaves glow; the blue-grey glaze breaks to amber along every cut edge.",
-  "alt": "A round blue-grey candle holder with carved leaf-shaped cut-outs edged in amber",
   "images": [
     {
-      "image": "/images/pieces/leaf-candle-holder-1.jpg"
+      "image": "/images/pieces/leaf-candle-holder-1.jpg",
+      "caption": ""
     }
   ],
+  "category": "home",
+  "status": "not-for-sale",
+  "quantity": 0,
+  "soldAsSet": false,
+  "items": [],
+  "year": 2022,
+  "description": "A round holder carved through with rows of leaf-shaped openings. With a tea light inside, the leaves glow; the blue-grey glaze breaks to amber along every cut edge.",
+  "alt": "A round blue-grey candle holder with carved leaf-shaped cut-outs edged in amber",
+  "featured": false,
+  "dimensions": "",
   "clay": "",
   "glaze": "",
-  "dimensions": "",
+  "imagePosition": "",
   "price": null
 }

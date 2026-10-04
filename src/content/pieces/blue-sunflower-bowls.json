@@ -1,20 +1,24 @@
 {
   "title": "Blue Sunflower Bowls, Pair",
   "sku": "YW-0002",
-  "category": "bowls",
-  "year": 2024,
-  "status": "available",
-  "quantity": 1,
-  "featured": false,
-  "description": "A deep bowl resting in a wide, shallow serving bowl, both in a mottled blue glaze with dark sunflower petals opening from a golden centre.",
-  "alt": "A blue bowl sitting inside a wider shallow bowl, both decorated with a dark sunflower pattern",
   "images": [
     {
-      "image": "/images/pieces/blue-sunflower-bowls-1.jpg"
+      "image": "/images/pieces/blue-sunflower-bowls-1.jpg",
+      "caption": "Custom order of 8"
     }
   ],
+  "category": "bowls",
+  "status": "not-for-sale",
+  "quantity": 0,
+  "soldAsSet": false,
+  "items": [],
+  "year": 2024,
+  "description": "A deep bowl resting in a wide, shallow serving bowl, both in a mottled blue glaze with dark sunflower petals opening from a golden centre.",
+  "alt": "A blue bowl sitting inside a wider shallow bowl, both decorated with a dark sunflower pattern",
+  "featured": false,
+  "dimensions": "",
   "clay": "",
   "glaze": "",
-  "dimensions": "",
+  "imagePosition": "",
   "price": null
 }

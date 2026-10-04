@@ -1,20 +1,24 @@
 {
   "title": "Chip and Dip, Midnight",
   "sku": "YW-0003",
-  "category": "plates",
-  "year": 2024,
-  "status": "available",
-  "quantity": 1,
-  "featured": false,
-  "description": "The same chip and dip form in a glossy near-black glaze that clouds to smoky blue across the centre. The dip bowl rises out of the rim in a single curl.",
-  "alt": "A glossy black and smoky blue chip and dip platter with the dip bowl rising from the rim",
   "images": [
     {
-      "image": "/images/pieces/chip-and-dip-midnight-1.jpg"
+      "image": "/images/pieces/chip-and-dip-midnight-1.jpg",
+      "caption": "Great for chips and dips, sushi, or even your favorite fruit with yogurt! Customizeable"
     }
   ],
+  "category": "plates",
+  "status": "not-for-sale",
+  "quantity": 1,
+  "soldAsSet": false,
+  "items": [],
+  "year": 2024,
+  "description": "The same chip and dip form in a glossy near-black glaze that clouds to smoky blue across the centre. The dip bowl rises out of the rim in a single curl.\n\nThe shape and the glazes can be customized",
+  "alt": "A glossy black and smoky blue chip and dip platter with the dip bowl rising from the rim",
+  "featured": false,
+  "dimensions": "",
   "clay": "",
   "glaze": "",
-  "dimensions": "",
+  "imagePosition": "",
   "price": null
 }
